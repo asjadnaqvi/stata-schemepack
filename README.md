@@ -15,10 +15,10 @@ This folder will be filled up with dozens of schemes. Since this is a test run, 
 The dofile in the folder can be copied and executed in Stata. Otherwise:
 
 Install the schemes:
-> net install schemes, from("https://github.com/asjadnaqvi/Stata-schemes/raw/master/schemes")
+> net install schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
 You can try various graphs either using this test data set:
-> use "https://github.com/asjadnaqvi/Stata-schemes/blob/master/scheme_test.dta?raw=true", clear
+> use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
 
 or use your own dataset!
 
