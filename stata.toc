@@ -1,0 +1,4 @@
+v 1
+d Tableau graph schemes
+d Asjad Naqvi, WU Vienna/IIASA, Austria
+p tableau graph scheme

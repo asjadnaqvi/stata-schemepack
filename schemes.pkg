@@ -1,0 +1,9 @@
+v 1
+d Tableau graph schemes
+d Using the Tableau color schemes with dark, white, and ggplot backgrounds
+d Asjad Naqvi, WU Vienna/IIASA, Austria
+d Distribution-Date: 01 April 2021
+f scheme-black_tableau.scheme
+f scheme-white_tableau.scheme
+f scheme-gg_tableau.scheme
+*f xxx.sthlp
