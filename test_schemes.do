@@ -15,14 +15,19 @@ clear
 cap cd "C:\Users\asjad\Dropbox\STATA - MEDIUM\dofiles/schemes"
 cap cd "D:\Programs\Dropbox\Dropbox\STATA - MEDIUM/dofiles/schemes"
 
+// describe the schemes
+net d schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
-
+// install the schemes
 net install schemes, from("https://github.com/asjadnaqvi/The-Stata-Guide/raw/master/schemes")
+
+// use the packages
 use "https://github.com/asjadnaqvi/The-Stata-Guide/blob/master/schemes/scheme_test.dta?raw=true", clear
 
 // you can also type:
-* set scheme gg_tableau
+* set scheme white_tableau 
 * set scheme black_tableau 
+* set scheme gg_tableau
 
 // etc, and get rid of the scheme option in the graphs below. Since this is a test file
 // feel free to use and abuse it as necessary.
