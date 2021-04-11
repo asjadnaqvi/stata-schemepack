@@ -14,6 +14,9 @@ This folder will be filled up with dozens of schemes. Since this is a test run, 
 
 The dofile in the folder can be copied and executed in Stata. Otherwise:
 
+Check the installation:
+> net d schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+
 Install the schemes:
 > net install schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
