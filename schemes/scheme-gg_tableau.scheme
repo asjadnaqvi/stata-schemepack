@@ -95,7 +95,7 @@ linewidth dot_area          thin
 linewidth dotmark           thin
 linewidth plotregion        vthin
 linewidth legend            vthin
-linewidth pie               thin
+linewidth pie               medium
 linewidth reverse_big       vthin
 linewidth sunflower         vthin
 linewidth matrix_plotregion vthin
@@ -221,7 +221,7 @@ yesno extend_axes_full_high no
 *** boxes
 color background        white
 color box            gs15
-color textbox        gs16
+color textbox        gs15
 color mat_label_box  gs15
 yesno textbox             no
 linestyle textbox  none
@@ -320,9 +320,9 @@ color p13bar     "152 223 138"
 color p14bar     "255 152 150"
 color p15bar     "197 176 213"
 * Confidence Intervals and other rarea plots
-color parea     gs13
-color parealine    gs13
-linewidth parealine   thin
+color parea     gs10
+color parealine    gs10
+linewidth parealine   vthin
 * Area plots
 color p1area     "31 119 180"
 color p2area     "255 127 14"
@@ -355,7 +355,8 @@ color p13arealine    "152 223 138"
 color p14arealine    "255 152 150"
 color p15arealine    "197 176 213"
 * Pie slices
-color ppieline    white
+color ppieline    black
+linestyle pie_line   medium
 color p1pie      "31 119 180"
 color p2pie      "255 127 14"
 color p3pie      "44 160 44"
@@ -379,8 +380,8 @@ color ci_line         gs13
 color ci2_line        gs13
 color ci_arealine     gs13
 color ci2_arealine    gs13
-color ci_area         gs15
-color ci2_area        gs15
+color ci_area         white
+color ci2_area        white
 color ci_symbol       gs13
 color ci2_symbol      gs13
 * Histograms

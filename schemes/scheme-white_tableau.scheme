@@ -93,7 +93,7 @@ linewidth dot_area          thin
 linewidth dotmark           thin
 linewidth plotregion        vthin
 linewidth legend            vthin
-linewidth pie               thin
+linewidth pie               medthin
 linewidth reverse_big       vthin
 linewidth sunflower         vthin
 linewidth matrix_plotregion vthin

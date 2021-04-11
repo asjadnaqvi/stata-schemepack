@@ -7,7 +7,7 @@ These schemes are procedurally generated where the colors and other information 
 This folder will be filled up with dozens of schemes. Since this is a test run, names and installation paths are also likely to change. Please check here for the updates.
 
 * The dofile contains the script to test the code.
-* The graph folder contains the sample figures.
+* The graph folder contains the sample figures in high resolution.
 
 
 ## How to use the schemes:
@@ -15,10 +15,10 @@ This folder will be filled up with dozens of schemes. Since this is a test run, 
 The dofile in the folder can be copied and executed in Stata. Otherwise:
 
 Check the installation:
-> net d schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+> net d tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
 Install the schemes:
-> net install schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+> net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
 You can try various graphs either using this test data set:
 > use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
@@ -30,24 +30,57 @@ Please report errors or bugs or suggestions to improve the schemes.
 
 *Note: This is a beta page. Links might get updated. Please check here for the latest version.* 
 
-## Scheme: white_tableau
+
+## Tableau color scheme
+
+### Scheme: white_tableau
 <img src="./figures/scatter_white_tableau.png" height="200"><img src="./figures/line_white_tableau.png" height="200">
+<img src="./figures/mlabel_white_tableau.png" height="200"><img src="./figures/bygraph_white_tableau.png" height="200">
 <img src="./figures/bar_white_tableau.png" height="200"><img src="./figures/barh_white_tableau.png" height="200">
 <img src="./figures/pie_white_tableau.png" height="200"><img src="./figures/density_white_tableau.png" height="200">
 <img src="./figures/ci_white_tableau.png" height="200"><img src="./figures/rcap_white_tableau.png" height="200">
 <img src="./figures/box_white_tableau.png" height="200">
 
-## Scheme: black_tableau
+### Scheme: black_tableau
 <img src="./figures/scatter_black_tableau.png" height="200"><img src="./figures/line_black_tableau.png" height="200">
+<img src="./figures/mlabel_black_tableau.png" height="200"><img src="./figures/bygraph_black_tableau.png" height="200">
 <img src="./figures/bar_black_tableau.png" height="200"><img src="./figures/barh_black_tableau.png" height="200">
 <img src="./figures/pie_black_tableau.png" height="200"><img src="./figures/density_black_tableau.png" height="200">
 <img src="./figures/ci_black_tableau.png" height="200"><img src="./figures/rcap_black_tableau.png" height="200">
 <img src="./figures/box_black_tableau.png" height="200">
 
-## Scheme: gg_tableau
-
+### Scheme: gg_tableau
 <img src="./figures/scatter_gg_tableau.png" height="200"><img src="./figures/line_gg_tableau.png" height="200">
+<img src="./figures/mlabel_gg_tableau.png" height="200"><img src="./figures/bygraph_gg_tableau.png" height="200">
 <img src="./figures/bar_gg_tableau.png" height="200"><img src="./figures/barh_gg_tableau.png" height="200">
 <img src="./figures/pie_gg_tableau.png" height="200"><img src="./figures/density_gg_tableau.png" height="200">
 <img src="./figures/ci_gg_tableau.png" height="200"><img src="./figures/rcap_gg_tableau.png" height="200">
 <img src="./figures/box_gg_tableau.png" height="200">
+
+
+## Cividis color scheme
+
+### Scheme: white_cividis
+<img src="./figures/scatter_white_cividis.png" height="200"><img src="./figures/line_white_cividis.png" height="200">
+<img src="./figures/mlabel_white_cividis.png" height="200"><img src="./figures/bygraph_white_cividis.png" height="200">
+<img src="./figures/bar_white_cividis.png" height="200"><img src="./figures/barh_white_cividis.png" height="200">
+<img src="./figures/pie_white_cividis.png" height="200"><img src="./figures/density_white_cividis.png" height="200">
+<img src="./figures/ci_white_cividis.png" height="200"><img src="./figures/rcap_white_cividis.png" height="200">
+<img src="./figures/box_white_cividis.png" height="200">
+
+### Scheme: black_cividis
+<img src="./figures/scatter_black_cividis.png" height="200"><img src="./figures/line_black_cividis.png" height="200">
+<img src="./figures/mlabel_black_cividis.png" height="200"><img src="./figures/bygraph_black_cividis.png" height="200">
+<img src="./figures/bar_black_cividis.png" height="200"><img src="./figures/barh_black_cividis.png" height="200">
+<img src="./figures/pie_black_cividis.png" height="200"><img src="./figures/density_black_cividis.png" height="200">
+<img src="./figures/ci_black_cividis.png" height="200"><img src="./figures/rcap_black_cividis.png" height="200">
+<img src="./figures/box_black_cividis.png" height="200">
+
+### Scheme: gg_cividis
+<img src="./figures/scatter_gg_cividis.png" height="200"><img src="./figures/line_gg_cividis.png" height="200">
+<img src="./figures/mlabel_gg_cividis.png" height="200"><img src="./figures/bygraph_gg_cividis.png" height="200">
+<img src="./figures/bar_gg_cividis.png" height="200"><img src="./figures/barh_gg_cividis.png" height="200">
+<img src="./figures/pie_gg_cividis.png" height="200"><img src="./figures/density_gg_cividis.png" height="200">
+<img src="./figures/ci_gg_cividis.png" height="200"><img src="./figures/rcap_gg_cividis.png" height="200">
+<img src="./figures/box_gg_cividis.png" height="200">
+
