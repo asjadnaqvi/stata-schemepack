@@ -26,6 +26,7 @@ gsize small_body      small
 gsize axis_title      small
 gsize matrix_label    large
 gsize label           medsmall
+gsize plabel          vsmall
 gsize small_label     small
 gsize matrix_marklbl  small
 gsize key_label       small
@@ -217,11 +218,14 @@ yesno extend_axes_low       no
 yesno extend_axes_high      no
 yesno extend_axes_full_low  no
 yesno extend_axes_full_high no
-// Colors //
+*** boxes
 color background        white
 color box            gs15
-color textbox        gs15
+color textbox        gs16
 color mat_label_box  gs15
+yesno textbox             no
+linestyle textbox  none
+linewidth textbox  vvthin
 color heading    black
 color subheading      black
 color body     black
@@ -229,6 +233,7 @@ color small_body   black
 color key_label    black
 color axis_title   black
 color tick_label   black
+color plabel             black
 color plotregion         gs14
 color plotregion_line    white
 color matrix_plotregion  white

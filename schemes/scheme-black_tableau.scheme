@@ -26,6 +26,7 @@ color small_body   gs15
 color key_label    gs15
 color axis_title   gs15
 color tick_label   gs15
+color plabel             white
 // Sizes
 gsize                 medsmall
 gsize gap             tiny
@@ -37,6 +38,7 @@ gsize small_body      small
 gsize axis_title      small
 gsize matrix_label    large
 gsize label           medsmall
+gsize plabel          vsmall
 gsize small_label     small
 gsize matrix_marklbl  small
 gsize key_label       small
@@ -231,9 +233,12 @@ yesno extend_axes_full_high no
 * Dark grey background for all plots
 color background             gs2
 * Textboxes
-color box             gs15
-color textbox         gs15
-color mat_label_box   gs15
+color box            gs3
+color textbox        gs3
+color mat_label_box  gs15
+yesno textbox           no
+linestyle textbox  none
+linewidth textbox  vvthin
 * Default for all other non-specified objects
 * NOTE: CIs in marginsplot is based on this
 *color p     white

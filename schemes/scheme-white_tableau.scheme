@@ -26,6 +26,7 @@ gsize small_body      small
 gsize axis_title      small
 gsize matrix_label    large
 gsize label           medsmall
+gsize plabel          vsmall
 gsize small_label     small
 gsize matrix_marklbl  small
 gsize key_label       small
@@ -224,6 +225,9 @@ color background             white
 color box             gs15
 color textbox         gs15
 color mat_label_box   gs15
+yesno textbox               no
+linestyle textbox   none
+linewidth textbox   vvthin
 color heading    black
 color subheading      black
 color body     black
@@ -231,6 +235,7 @@ color small_body   black
 color key_label    black
 color axis_title   black
 color tick_label   black
+color plabel             black
 *color p     black
 color p1      "31 119 180"
 color p2       "255 127 14"

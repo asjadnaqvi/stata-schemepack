@@ -4,6 +4,9 @@ d
 d Various Stata graph schemes with three backgrounds: dark, white, and gg (grey). The gg scheme is similar to the ggplot2 scheme in R.
 d These schemes are derived from Stata's s2color, cleanplots (Mize 2018), and blindschemes (Bischof 2017). Colors are taken from the colorpalette package (Jann 2018).
 d
+d Please check https://github.com/asjadnaqvi/Stata-schemes for the latest updates
+d More information on the Stata Guide on Medium: https://medium.com/the-stata-guide
+d
 d KW: Stata
 d KW: schemes
 d
@@ -12,9 +15,6 @@ d
 d Author: Asjad Naqvi, WU Vienna/IIASA, Austria
 d Support: asjadnaqvi@gmail.com
 d 
-d Please check https://github.com/asjadnaqvi/Stata-schemes for the latest updates
-d More information on the Stata Guide on Medium: https://medium.com/the-stata-guide
-d
 d
 f scheme-black_tableau.scheme
 f scheme-white_tableau.scheme
