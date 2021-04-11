@@ -15,11 +15,9 @@ d
 d Author: Asjad Naqvi, WU Vienna/IIASA, Austria
 d Support: asjadnaqvi@gmail.com
 d 
-d Tableau colors:
 f scheme-black_tableau.scheme
 f scheme-white_tableau.scheme
 f scheme-gg_tableau.scheme
-d Cividis colors:
 f scheme-black_cividis.scheme
 f scheme-white_cividis.scheme
 f scheme-gg_cividis.scheme
