@@ -1,5 +1,5 @@
 v 3
-d 'TSG-SCHEMES': provides various ready-to-use Stata graph schemes that are described in the Stata Guide (TSG) (https://medium.com/the-stata-guide)
+d 'TSG-SCHEMES': provides various ready-to-use Stata graph schemes that are described in The Stata Guide (TSG) (https://medium.com/the-stata-guide)
 d
 d Here you can install various Stata graph schemes with three backgrounds: dark, white, and gg (grey). The gg scheme is similar to the ggplot2 in R.
 d These schemes are derived from Stata's s2color, cleanplots (Mize 2018), and blindschemes (Bischof 2017). Colors are taken from the colorpalette package (Jann 2018).
