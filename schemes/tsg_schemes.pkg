@@ -1,14 +1,22 @@
 v 3
-d tsg-schemes  
+d 'TSG-SCHEMES': provides various ready-to-use templates for the graph schemes 
 d
-d Various Stata schemes with three backgrounds dark, white, and grey. The grey scheme represents the ggplot scheme.
-d The schemes are derived from Stata's s2color, cleanplots (Mize 2018), and blindschemes (Bischof 2017). Colors are taken from the colorpalette package (Jann 2018).
-* 
+d Various Stata graph schemes with three backgrounds: dark, white, and gg (grey). The gg scheme is similar to the ggplot2 scheme in R.
+d These schemes are derived from Stata's s2color, cleanplots (Mize 2018), and blindschemes (Bischof 2017). Colors are taken from the colorpalette package (Jann 2018).
+d
+d KW: Stata
+d KW: schemes
+d
+d Distribution date: 11 April 2021
+d
 d Author: Asjad Naqvi, WU Vienna/IIASA, Austria
 d Support: asjadnaqvi@gmail.com
-d Distribution date: 11 April 2021
+d 
+d Please check https://github.com/asjadnaqvi/Stata-schemes for the latest updates
+d More information on the Stata Guide on Medium: https://medium.com/the-stata-guide
+d
 d
 f scheme-black_tableau.scheme
 f scheme-white_tableau.scheme
 f scheme-gg_tableau.scheme
-*f xxx.sthlp
+

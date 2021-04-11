@@ -1,8 +1,5 @@
 v 3
-d Collection of Stata graph schemes
-d 
-d 
+d TSG-Schemes: Collection of various Stata graph schemes as part of The Stata Guide (TSG)
+d
 d Asjad Naqvi, WU Vienna/IIASA, Austria
-d
-d
-d
+
