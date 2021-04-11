@@ -1,8 +1,13 @@
-v 1
-d Tableau graph schemes
-d Using the Tableau color schemes with dark, white, and ggplot backgrounds
-d Asjad Naqvi, WU Vienna/IIASA, Austria
-d Distribution-Date: 01 April 2021
+v 3
+d tsg-schemes  
+d
+d Various Stata schemes with three backgrounds dark, white, and grey. The grey scheme represents the ggplot scheme.
+d The schemes are derived from Stata's s2color, cleanplots (Mize 2018), and blindschemes (Bischof 2017). Colors are taken from the colorpalette package (Jann 2018).
+* 
+d Author: Asjad Naqvi, WU Vienna/IIASA, Austria
+d Support: asjadnaqvi@gmail.com
+d Distribution date: 11 April 2021
+d
 f scheme-black_tableau.scheme
 f scheme-white_tableau.scheme
 f scheme-gg_tableau.scheme
