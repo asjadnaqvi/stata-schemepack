@@ -19,10 +19,10 @@ cap cd "D:\Programs\Dropbox\Dropbox\STATA - MEDIUM/dofiles/schemes"
 net d schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
 // install the schemes
-net install schemes, from("https://github.com/asjadnaqvi/The-Stata-Guide/raw/master/schemes")
+net install schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
 // use the packages
-use "https://github.com/asjadnaqvi/The-Stata-Guide/blob/master/schemes/scheme_test.dta?raw=true", clear
+use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
 
 // you can also type:
 * set scheme white_tableau 
