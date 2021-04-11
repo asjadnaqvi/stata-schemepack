@@ -1,4 +1,8 @@
-v 1
-d Tableau graph schemes
+v 3
+d Collection of Stata graph schemes
+d 
+d 
 d Asjad Naqvi, WU Vienna/IIASA, Austria
-p tableau graph scheme
+d
+d
+d
