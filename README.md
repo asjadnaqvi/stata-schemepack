@@ -7,7 +7,7 @@ These schemes are procedurally generated where the colors and other information 
 Since the schemes are scripted, this folder will be filled up with various schemes over time. It is also likely some schemes go through minor adjustments since not all possible graph combinations have been tested. Names and installation paths might change. Please check here for the updates.
 
 * The dofile contains the script to test the code.
-* The graph folder contains the sample figures in high resolution.
+* The graph folder contains the high resolution sample figures.
 
 
 ## How to use the schemes:
