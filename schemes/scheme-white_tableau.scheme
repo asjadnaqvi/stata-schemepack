@@ -1,11 +1,15 @@
-* clean template --- Asjad Naqvi (2021)
-* modified from Cleanplots by Trenton Mize (2018) who modified it from Bischof (2017)
+* white background --- Asjad Naqvi (2021)
+* modified from cleanplot (Mize 2018) and plainplot (Bischof 2017)
+*
+*
+*
 sequence 1210
-label "white_tableau"
+label "white_tableau"   // auto generated
 #include s2color
 // positions and sizes
 numstyle pcycle             15
 clockdir legend_position     3
+clockdir by_legend_position  6
 numstyle legend_cols         1
 numstyle legend_rows         0
 gsize legend_key_xsize       5
@@ -100,8 +104,8 @@ linewidth matrix_plotregion vthin
 linewidth text_option       vthin
 linewidth ci                thin
 linewidth ci2               thin
-linewidth ci_area           none
-linewidth ci2_area          none
+linewidth ci_area           vthin
+linewidth ci2_area          vthin
 linewidth pbar              vthin
 linewidth p1bar             vthin
 linewidth p2bar             vthin
@@ -156,7 +160,6 @@ linewidth pbar           vthin
 linewidth pbox       vthin
 linewidth pmark    vvthin
 linewidth refline        medthin
-intensity ci_area      inten30
 yesno draw_minor_vgrid   yes
 yesno draw_minor_hgrid   yes
 symbolsize            medsmall
@@ -371,7 +374,7 @@ color p15pie     "197 176 213"
 intensity bar     80
 intensity histogram         80
 * Confidence Intervals
-intensity ci_area      inten50
+intensity ci_area      inten80
 color ci_line         gs13
 color ci2_line        gs13
 color ci_arealine     gs13

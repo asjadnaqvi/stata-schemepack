@@ -84,3 +84,55 @@ The figures drawn from various schemes are showcased below.
 <img src="./figures/ci_gg_cividis.png" height="200"><img src="./figures/rcap_gg_cividis.png" height="200">
 <img src="./figures/box_gg_cividis.png" height="200">
 
+## Viridis color scheme
+
+### white_viridis
+<img src="./figures/scatter_white_viridis.png" height="200"><img src="./figures/line_white_viridis.png" height="200">
+<img src="./figures/mlabel_white_viridis.png" height="200"><img src="./figures/bygraph_white_viridis.png" height="200">
+<img src="./figures/bar_white_viridis.png" height="200"><img src="./figures/barh_white_viridis.png" height="200">
+<img src="./figures/pie_white_viridis.png" height="200"><img src="./figures/density_white_viridis.png" height="200">
+<img src="./figures/ci_white_viridis.png" height="200"><img src="./figures/rcap_white_viridis.png" height="200">
+<img src="./figures/box_white_viridis.png" height="200">
+
+### black_viridis
+<img src="./figures/scatter_black_viridis.png" height="200"><img src="./figures/line_black_viridis.png" height="200">
+<img src="./figures/mlabel_black_viridis.png" height="200"><img src="./figures/bygraph_black_viridis.png" height="200">
+<img src="./figures/bar_black_viridis.png" height="200"><img src="./figures/barh_black_viridis.png" height="200">
+<img src="./figures/pie_black_viridis.png" height="200"><img src="./figures/density_black_viridis.png" height="200">
+<img src="./figures/ci_black_viridis.png" height="200"><img src="./figures/rcap_black_viridis.png" height="200">
+<img src="./figures/box_black_viridis.png" height="200">
+
+### gg_viridis
+<img src="./figures/scatter_gg_viridis.png" height="200"><img src="./figures/line_gg_viridis.png" height="200">
+<img src="./figures/mlabel_gg_viridis.png" height="200"><img src="./figures/bygraph_gg_viridis.png" height="200">
+<img src="./figures/bar_gg_viridis.png" height="200"><img src="./figures/barh_gg_viridis.png" height="200">
+<img src="./figures/pie_gg_viridis.png" height="200"><img src="./figures/density_gg_viridis.png" height="200">
+<img src="./figures/ci_gg_viridis.png" height="200"><img src="./figures/rcap_gg_viridis.png" height="200">
+<img src="./figures/box_gg_viridis.png" height="200">
+
+
+## Hue color scheme (default ggplot2 colors)
+
+### white_hue
+<img src="./figures/scatter_white_hue.png" height="200"><img src="./figures/line_white_hue.png" height="200">
+<img src="./figures/mlabel_white_hue.png" height="200"><img src="./figures/bygraph_white_hue.png" height="200">
+<img src="./figures/bar_white_hue.png" height="200"><img src="./figures/barh_white_hue.png" height="200">
+<img src="./figures/pie_white_hue.png" height="200"><img src="./figures/density_white_hue.png" height="200">
+<img src="./figures/ci_white_hue.png" height="200"><img src="./figures/rcap_white_hue.png" height="200">
+<img src="./figures/box_white_hue.png" height="200">
+
+### black_hue
+<img src="./figures/scatter_black_hue.png" height="200"><img src="./figures/line_black_hue.png" height="200">
+<img src="./figures/mlabel_black_hue.png" height="200"><img src="./figures/bygraph_black_hue.png" height="200">
+<img src="./figures/bar_black_hue.png" height="200"><img src="./figures/barh_black_hue.png" height="200">
+<img src="./figures/pie_black_hue.png" height="200"><img src="./figures/density_black_hue.png" height="200">
+<img src="./figures/ci_black_hue.png" height="200"><img src="./figures/rcap_black_hue.png" height="200">
+<img src="./figures/box_black_hue.png" height="200">
+
+### gg_hue
+<img src="./figures/scatter_gg_hue.png" height="200"><img src="./figures/line_gg_hue.png" height="200">
+<img src="./figures/mlabel_gg_hue.png" height="200"><img src="./figures/bygraph_gg_hue.png" height="200">
+<img src="./figures/bar_gg_hue.png" height="200"><img src="./figures/barh_gg_hue.png" height="200">
+<img src="./figures/pie_gg_hue.png" height="200"><img src="./figures/density_gg_hue.png" height="200">
+<img src="./figures/ci_gg_hue.png" height="200"><img src="./figures/rcap_gg_hue.png" height="200">
+<img src="./figures/box_gg_hue.png" height="200">

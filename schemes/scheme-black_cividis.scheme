@@ -1,11 +1,15 @@
-* clean template --- Asjad Naqvi (2021)
-* modified from Cleanplots by Trenton Mize (2018) who modified it from Bischof (2017)
+* black background --- Asjad Naqvi (2021)
+* modified from cleanplot (Mize 2018) and plainplot (Bischof 2017)
+*
+*
+*
 sequence 1210
 label "black_cividis"
 #include s2color
 // positions and sizes
 numstyle pcycle             12
 clockdir legend_position     3
+clockdir by_legend_position  6
 numstyle legend_cols         1
 numstyle legend_rows         0
 gsize legend_key_xsize       5
@@ -112,8 +116,8 @@ linewidth matrix_plotregion vthin
 linewidth text_option       vthin
 linewidth ci                thin
 linewidth ci2               thin
-linewidth ci_area           none
-linewidth ci2_area          none
+linewidth ci_area           vthin
+linewidth ci2_area          vthin
 linewidth pbar              thin
 *linewidth p1bar             vthin
 *linewidth p2bar             vthin
@@ -396,10 +400,10 @@ intensity histogram         90
 intensity box    90
 * Confidence Intervals
 intensity ci_area      inten90
-color ci_line         gs13
-color ci2_line        gs13
-color ci_arealine     gs13
-color ci2_arealine    gs13
+color ci_line         gs6
+color ci2_line        gs6
+color ci_arealine     gs6
+color ci2_arealine    gs6
 color ci_area         gs4
 color ci2_area        gs4
 color ci_symbol       gs13

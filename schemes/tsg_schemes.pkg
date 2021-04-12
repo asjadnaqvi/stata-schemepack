@@ -21,5 +21,12 @@ f scheme-gg_tableau.scheme
 f scheme-black_cividis.scheme
 f scheme-white_cividis.scheme
 f scheme-gg_cividis.scheme
+f scheme-black_viridis.scheme
+f scheme-white_viridis.scheme
+f scheme-gg_viridis.scheme
+f scheme-black_hue.scheme
+f scheme-white_hue.scheme
+f scheme-gg_hue.scheme
+
 
 
