@@ -33,7 +33,7 @@ Please report errors or bugs or suggestions to improve the schemes.
 
 ## Tableau color scheme
 
-### Scheme: white_tableau
+### white_tableau
 <img src="./figures/scatter_white_tableau.png" height="200"><img src="./figures/line_white_tableau.png" height="200">
 <img src="./figures/mlabel_white_tableau.png" height="200"><img src="./figures/bygraph_white_tableau.png" height="200">
 <img src="./figures/bar_white_tableau.png" height="200"><img src="./figures/barh_white_tableau.png" height="200">
@@ -41,7 +41,7 @@ Please report errors or bugs or suggestions to improve the schemes.
 <img src="./figures/ci_white_tableau.png" height="200"><img src="./figures/rcap_white_tableau.png" height="200">
 <img src="./figures/box_white_tableau.png" height="200">
 
-### Scheme: black_tableau
+### black_tableau
 <img src="./figures/scatter_black_tableau.png" height="200"><img src="./figures/line_black_tableau.png" height="200">
 <img src="./figures/mlabel_black_tableau.png" height="200"><img src="./figures/bygraph_black_tableau.png" height="200">
 <img src="./figures/bar_black_tableau.png" height="200"><img src="./figures/barh_black_tableau.png" height="200">
@@ -49,7 +49,7 @@ Please report errors or bugs or suggestions to improve the schemes.
 <img src="./figures/ci_black_tableau.png" height="200"><img src="./figures/rcap_black_tableau.png" height="200">
 <img src="./figures/box_black_tableau.png" height="200">
 
-### Scheme: gg_tableau
+### gg_tableau
 <img src="./figures/scatter_gg_tableau.png" height="200"><img src="./figures/line_gg_tableau.png" height="200">
 <img src="./figures/mlabel_gg_tableau.png" height="200"><img src="./figures/bygraph_gg_tableau.png" height="200">
 <img src="./figures/bar_gg_tableau.png" height="200"><img src="./figures/barh_gg_tableau.png" height="200">
@@ -60,7 +60,7 @@ Please report errors or bugs or suggestions to improve the schemes.
 
 ## Cividis color scheme
 
-### Scheme: white_cividis
+### white_cividis
 <img src="./figures/scatter_white_cividis.png" height="200"><img src="./figures/line_white_cividis.png" height="200">
 <img src="./figures/mlabel_white_cividis.png" height="200"><img src="./figures/bygraph_white_cividis.png" height="200">
 <img src="./figures/bar_white_cividis.png" height="200"><img src="./figures/barh_white_cividis.png" height="200">
@@ -68,7 +68,7 @@ Please report errors or bugs or suggestions to improve the schemes.
 <img src="./figures/ci_white_cividis.png" height="200"><img src="./figures/rcap_white_cividis.png" height="200">
 <img src="./figures/box_white_cividis.png" height="200">
 
-### Scheme: black_cividis
+### black_cividis
 <img src="./figures/scatter_black_cividis.png" height="200"><img src="./figures/line_black_cividis.png" height="200">
 <img src="./figures/mlabel_black_cividis.png" height="200"><img src="./figures/bygraph_black_cividis.png" height="200">
 <img src="./figures/bar_black_cividis.png" height="200"><img src="./figures/barh_black_cividis.png" height="200">
@@ -76,7 +76,7 @@ Please report errors or bugs or suggestions to improve the schemes.
 <img src="./figures/ci_black_cividis.png" height="200"><img src="./figures/rcap_black_cividis.png" height="200">
 <img src="./figures/box_black_cividis.png" height="200">
 
-### Scheme: gg_cividis
+### gg_cividis
 <img src="./figures/scatter_gg_cividis.png" height="200"><img src="./figures/line_gg_cividis.png" height="200">
 <img src="./figures/mlabel_gg_cividis.png" height="200"><img src="./figures/bygraph_gg_cividis.png" height="200">
 <img src="./figures/bar_gg_cividis.png" height="200"><img src="./figures/barh_gg_cividis.png" height="200">
