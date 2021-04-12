@@ -28,7 +28,7 @@ or use your own dataset!
 Please report errors or bugs or suggestions to improve the schemes. 
 
 
-*Note: This is a beta page. Links might get updated. Please check here for the latest version.* 
+The figures drawn from various schemes are showcased below.
 
 
 ## Tableau color scheme
