@@ -3,12 +3,12 @@ d 'TSG-SCHEMES': provides various ready-to-use Stata graph schemes.
 d
 d These graph schemes are released as part of The Stata Guide (TSG) series (https://medium.com/the-stata-guide). 
 d Here you can install various schemes with three backgrounds: dark, white, and gg (grey). The gg schemes are similar to the ggplot2 in R.
-d These schemes are derived from Stata's s2color, cleanplots (Mize 2018), and blindschemes (Bischof 2017). 
+d The schemes are derived from Stata's s2color, cleanplots (Mize 2018), and plainplot from blindschemes (Bischof 2017). 
 d Colors are taken from Ben Jann's colorpalette package (Jann 2018).
 d A sample data and dofile are provided on GitHub to test these schemes.
 d
-d Schemes can be used either by setting them in the dofile, for example, 'set scheme black_tableau'. 
-d Or they can be called directly while making graphs, for example, scatter y x, scheme(gg_viridis).
+d Schemes can be used either by setting them in the dofile: 'set scheme black_tableau' or 'set scheme black_tableau, perm'. 
+d Schemes can also be called directly while making graphs: twoway (scatter y x), scheme(gg_viridis).
 d
 d Please check https://github.com/asjadnaqvi/Stata-schemes for the latest updates.
 d
