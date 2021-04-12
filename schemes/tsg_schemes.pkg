@@ -7,7 +7,7 @@ d The schemes are derived from Stata's s2color, cleanplots (Mize 2018), and plai
 d Colors are taken from Ben Jann's colorpalette package (Jann 2018).
 d A sample data and dofile are provided on GitHub to test these schemes.
 d
-d Schemes can be used either by setting them in the dofile: 'set scheme black_tableau' or 'set scheme black_tableau, perm'. 
+d Schemes can defined for all graphs: 'set scheme black_tableau' or 'set scheme black_tableau, perm'.
 d Schemes can also be called directly while making graphs: 'twoway (scatter y x), scheme(gg_viridis)'.
 d
 d Please check https://github.com/asjadnaqvi/Stata-schemes for the latest updates.
