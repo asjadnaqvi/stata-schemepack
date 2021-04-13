@@ -9,6 +9,8 @@ Since the schemes are scripted, this folder will be filled up with various schem
 * The dofile contains the script to test the code.
 * The graph folder contains the high resolution sample figures.
 
+Link to the Medium article that describes these schemes: [Stata graph schemes by The Stata Guide](https://medium.com/the-stata-guide/stata-schemes-5ef99d099585)
+
 
 ## How to use the schemes:
 
