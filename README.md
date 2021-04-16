@@ -30,8 +30,8 @@ or use your own dataset!
 Please report errors or bugs or suggestions to improve the schemes. 
 
 ### Change log
-* 16 April 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: brbg, piyg, ptol, jet, w3d
-* 08 April 2021: Repository created with pkg file and the following schemes added: tableau, cividis, viridis, hue
+* 16 April 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: **brbg**, **piyg**, **ptol**, **jet**, **w3d**
+* 08 April 2021: Repository created with pkg file and the following schemes added: **tableau**, **cividis**, **viridis**, **hue**
 
 
 The figures drawn from various schemes are showcased below.
