@@ -18,9 +18,9 @@ clear
 net d tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
 // install the schemes
-net install schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/"), replace
 
-// use the packages
+// read the data
 use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
 
 // you either type:
@@ -28,7 +28,7 @@ use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=t
 * set scheme black_tableau 
 * set scheme gg_tableau
 
-// or say
+// or permanently set the theme
 * set scheme white_tableau, perm
 
 
@@ -39,7 +39,7 @@ use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=t
 // Feel free to try these on your own datasets and please report errors if any
 
 
-set scheme black_hue
+set scheme black_tableau
 
 
 *****************************************
@@ -97,6 +97,7 @@ twoway ///
 		
 graph pie var2 if group <= 10, ///
 	over(group) plabel(_all percent, format(%9.2f)) ///
+	line(lcolor(black) lwidth(vvthin)) 	///                  // outline colors have to be manually added
 	title("Pie plot") ///
 		note("The Stata Guide", size(vsmall)) 
 
@@ -116,7 +117,11 @@ graph box ///
 		title("Box plot") ///
 		note("The Stata Guide", size(vsmall)) 
 
+*** Histogram
 
+histogram var4, percent ///
+	title("Histogram") ///
+		note("The Stata Guide", size(vsmall)) 
 		
 *** Bar graph
 
@@ -131,8 +136,9 @@ graph bar ///
 		legend(order(1 "Var 1" 2 "Var 2" 3 "Var 3"  4 "Var 4"  5 "Var 5" 6 "Var 6")) ///
 		title("Bar graph") ///
 		note("The Stata Guide", size(vsmall)) 
+
 		
-	
+
 *** Horizontal bar graph
 
 graph hbar (mean) ///
@@ -171,7 +177,7 @@ twoway ///
 		note("The Stata Guide", size(vsmall)) 
 	
 
-*** Range graphs	
+*** Area graphs	
 
 twoway ///
 	(area den1d den1x, fcolor(%50)) ///

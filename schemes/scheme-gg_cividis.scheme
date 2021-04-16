@@ -388,7 +388,7 @@ color ci2_area        white
 color ci_symbol       gs13
 color ci2_symbol      gs13
 * Histograms
-color histogram    none
+color histogram     "254 232 56"
 color histogram_line  black
 color xyline     white
 color tick            gs4
@@ -402,9 +402,7 @@ color matrix           gs6
 color matrixmarkline   gs6
 color refmarker        gs11
 color refmarkline      black
-color histogram        gs8
 color histback         gs10
-color histogram_line   black
 * Gridlines
 yesno draw_major_grid        yes
 yesno draw_minor_grid        yes

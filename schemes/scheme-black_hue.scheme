@@ -114,8 +114,8 @@ linewidth reverse_big       vthin
 linewidth sunflower         vthin
 linewidth matrix_plotregion vthin
 linewidth text_option       vthin
-linewidth ci                thin
-linewidth ci2               thin
+linewidth ci                vthin
+linewidth ci2               vthin
 linewidth ci_area           vthin
 linewidth ci2_area          vthin
 linewidth pbar              thin
@@ -409,23 +409,21 @@ color ci2_area        gs4
 color ci_symbol       gs13
 color ci2_symbol      gs13
 * Histograms
-color histogram    none
+color histogram     "248 118 109"
 color histogram_line  gs15
 color xyline     white
-color tick            gs10
-color minortick       gs10
-color grid                  gs10
-color major_grid            gs10
-color minor_grid            gs10
-color axisline        white
-color tickline        white
+color tick            gs13
+color minortick       gs13
+color grid                  gs13
+color major_grid            gs13
+color minor_grid            gs13
+color axisline        gs13
+color tickline        gs13
 color matrix           gs6
 color matrixmarkline   gs6
 color refmarker        gs11
 color refmarkline      gs15
-color histogram        gs8
 color histback         gs10
-color histogram_line   gs15
 * Gridlines
 yesno draw_major_grid        no
 yesno draw_minor_grid        no

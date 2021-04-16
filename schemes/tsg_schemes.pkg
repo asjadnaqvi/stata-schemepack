@@ -5,20 +5,20 @@ d
 d These graph schemes are released as part of The Stata Guide (TSG) series (https://medium.com/the-stata-guide). 
 d Here you can install various schemes with three backgrounds: dark, white, and gg (grey). The gg schemes are similar to the ggplot2 in R.
 d The schemes are derived from Stata's s2color, cleanplots (Mize 2018), and plainplot from blindschemes (Bischof 2017). 
-d Colors are taken from Ben Jann's colorpalette package (Jann 2018).
+d Colors are taken from Ben Jann's colorpalette package (Jann 2018) and scripted into the scheme files. 
 d A sample data and dofile are provided on GitHub to test these schemes.
 d
 d Schemes can defined for all graphs: 'set scheme black_tableau' or 'set scheme black_tableau, perm'.
 d Schemes can also be called directly while making graphs: 'twoway (scatter y x), scheme(gg_viridis)'.
 d
-d Please check https://github.com/asjadnaqvi/Stata-schemes for the latest updates.
+d Please check https://github.com/asjadnaqvi/Stata-schemes for the latest updates. Please report errors that you find.
 d
-d Requires Stata verion 14 or above.
+d Requires Stata version 14 or above.
 d
 d KW: Stata
 d KW: schemes
 d
-d Distribution date: 12 April 2021
+d Distribution date: 16 April 2021
 d
 d Author: Asjad Naqvi, WU Vienna/IIASA, Austria
 d Support: asjadnaqvi@gmail.com
@@ -35,6 +35,22 @@ f scheme-gg_viridis.scheme
 f scheme-black_hue.scheme
 f scheme-white_hue.scheme
 f scheme-gg_hue.scheme
+f scheme-black_brbg.scheme
+f scheme-white_brbg.scheme
+f scheme-gg_brbg.scheme
+f scheme-black_piyg.scheme
+f scheme-white_piyg.scheme
+f scheme-gg_piyg.scheme
+f scheme-black_ptol.scheme
+f scheme-white_ptol.scheme
+f scheme-gg_ptol.scheme
+f scheme-black_jet.scheme
+f scheme-white_jet.scheme
+f scheme-gg_jet.scheme
+f scheme-black_w3d.scheme
+f scheme-white_w3d.scheme
+f scheme-gg_w3d.scheme
+
 
 
 
