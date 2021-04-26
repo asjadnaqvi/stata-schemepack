@@ -170,7 +170,7 @@ linewidth small    small
 linewidth histogram      vthin
 linewidth bar            vthin
 linewidth pbox      vthin
-linewidth pmark    vvthin
+linewidth pmark    vthin
 linewidth refline        medthin
 yesno draw_minor_vgrid   yes
 yesno draw_minor_hgrid   yes
@@ -414,11 +414,11 @@ color histogram_line  gs15
 color xyline     white
 color tick            gs13
 color minortick       gs13
-color grid                  gs13
-color major_grid            gs13
-color minor_grid            gs13
-color axisline        gs13
-color tickline        gs13
+color grid                  gs11
+color major_grid            gs11
+color minor_grid            gs11
+color axisline        gs12
+color tickline        gs12
 color matrix           gs6
 color matrixmarkline   gs6
 color refmarker        gs11

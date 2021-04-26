@@ -158,7 +158,7 @@ linewidth small    small
 linewidth histogram      vthin
 linewidth pbar           vthin
 linewidth pbox       vthin
-linewidth pmark    vvthin
+linewidth pmark    vthin
 linewidth refline        medthin
 yesno draw_minor_vgrid   yes
 yesno draw_minor_hgrid   yes

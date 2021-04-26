@@ -160,7 +160,7 @@ linewidth small    small
 linewidth histogram      vthin
 linewidth pbar           vthin
 linewidth pbox       vthin
-linewidth pmark    vvthin
+linewidth pmark    vthin
 linewidth refline        medthin
 symbolsize            medsmall
 symbolsize p          medsmall

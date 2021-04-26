@@ -27,7 +27,7 @@ You can try various graphs either using this test data set:
 
 or use your own dataset!
 
-Please report errors or bugs or suggestions to improve the schemes. 
+Please report errors or bugs or suggestions to improve the schemes. Several new schemes coming soon!
 
 ### Change log
 * 16 April 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: **brbg**, **piyg**, **ptol**, **jet**, **w3d**
