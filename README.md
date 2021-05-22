@@ -23,7 +23,7 @@ net d tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-sche
 
 Install the schemes:
 ```
-net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
 ```
 
 You can try various graphs either using this test data set:
