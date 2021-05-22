@@ -17,13 +17,19 @@ Link to the Medium article that describes these schemes: [Stata graph schemes by
 The dofile in the folder can be copied and executed in Stata. Otherwise:
 
 Check the installation:
-> net d tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+```
+net d tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+```
 
 Install the schemes:
-> net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+```
+net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+```
 
 You can try various graphs either using this test data set:
-> use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
+```
+use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
+```
 
 or use your own dataset!
 
