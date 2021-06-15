@@ -35,6 +35,8 @@ or use your own dataset!
 
 Please report errors or bugs or suggestions to improve the schemes. Several new schemes coming soon!
 
+BUG!!! Stata 15 issue. If you are using Stata 15, then don't use the gg schemes. Type ```which s2-scheme.scheme```. If it shows 2017, then gg is not compatible. You can still use white and black schemes. If the version is 2019 (Stata 16 and above), then all the schemes should run fine.
+
 ### Change log
 * 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and older version were giving errors.
 * 16 Apr 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: **brbg**, **piyg**, **ptol**, **jet**, **w3d**

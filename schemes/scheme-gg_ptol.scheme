@@ -76,8 +76,6 @@ gsize sts_risk_tick
 linestyle  legend
 linestyle  plotregion
 anglestyle vertical_tick
-*numticks_g horizontal_minor  2
-*numticks_g horizontal_minor  2
 linewidth xyline
 linewidth histogram
 linewidth bar
@@ -219,7 +217,6 @@ yesno extend_axes_low       no
 yesno extend_axes_high      no
 yesno extend_axes_full_low  no
 yesno extend_axes_full_high no
-*** boxes
 color background        white
 color box
 color textbox
