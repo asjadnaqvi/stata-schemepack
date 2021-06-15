@@ -33,7 +33,7 @@ use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=t
 
 or use your own dataset!
 
-BUG!!! Stata 15 issue was recently reported. If you are using Stata 15, then don't use the gg schemes. Type ```scheme-s2color.scheme```. If it shows 2017, then gg is not compatible. You can still use white and black schemes. If the version is 2019 (Stata 16 and above), then all the schemes should run fine.
+**BUG!** Stata 15 issue was recently reported. If you are using Stata 15, then don't use the gg schemes. Type ```scheme-s2color.scheme```. If it shows 2017, then gg is not compatible. You can still use white and black schemes. If the version is 2019 (Stata 16 and above), then all the schemes should run fine.
 
 Please report errors or bugs or suggestions to improve the schemes. Several new schemes coming soon!
 
