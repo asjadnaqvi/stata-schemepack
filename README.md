@@ -1,6 +1,6 @@
 # Stata schemes
 
-In this folder are various new Stata schemes. The schemes have been programmed in three flavors: **white**, **black**, and **grey (gg)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R.
+In this folder are various new Stata schemes. The schemes have been programmed in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R.
 
 These schemes are procedurally generated where the colors and other information is introduced in the schemes via scripts. The core white scheme is based on the [Cleanplots theme](https://www.trentonmize.com/software/cleanplots) (Mize 2018) that itself is derived from the [plainplots theme](https://www.stata.com/meeting/switzerland16/slides/bischof-switzerland16.pdf) (Bischof 2017). Most of the elements have been overwritten but the simple structure of the dotted grid lines and the axis colors is maintained. I really like these features! The colors have been passed on to the scheme using Ben Jann's [colorpalette](http://repec.sowi.unibe.ch/stata/palettes/index.html) package (Jann 2018).
 
@@ -33,7 +33,7 @@ use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=t
 
 or use your own dataset!
 
-**BUG!** Stata 15 issue was recently reported. If you are using Stata 15, then don't use the gg schemes. Type ```scheme-s2color.scheme```. If it shows 2017, then gg is not compatible. You can still use white and black schemes. If the version is 2019 (Stata 16 and above), then all the schemes should run fine.
+**BUG!** A bug for Stata 15 was recently reported. If you are using Stata 15, then don't use the gg schemes. Type ```which scheme-s2color.scheme```. If it shows 2017, then gg schemes are not compatible. You can still use white and black schemes. If the version is 2019 (Stata 16 and above), then all the schemes should run fine.
 
 Please report errors or bugs or suggestions to improve the schemes. Several new schemes coming soon!
 
