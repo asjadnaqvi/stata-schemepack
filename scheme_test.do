@@ -15,10 +15,10 @@ clear
 
 
 // describe the schemes
-net d tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
+*net d tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 
 // install the schemes
-net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/"), replace
+*net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
 
 // read the data
 use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
@@ -39,7 +39,7 @@ use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=t
 // Feel free to try these on your own datasets and please report errors if any
 
 
-set scheme black_tableau
+set scheme white_tableau
 
 
 *****************************************
@@ -61,10 +61,12 @@ twoway ///
 	(scatter var2 date if group==8) ///
 	(scatter var2 date if group==9) ///
 	(scatter var2 date if group==10) ///
+	(scatter var2 date if group==11) ///
+	(scatter var2 date if group==12) ///
 	, ///
 		legend(order(1 "group1" 2 "group2" 3 "group3"  4 "group4"  5 "group5" 6 "group6" 7 "group7" 8 "group8" 9 "group9" 10 "group10" 11 "group11" 12 "group12")) ///
 		title("Scatter plot") ///
-		note("By the Stata Guide")
+		note("By the Stata Guide") scheme(white_tableau)
 		
 
 
