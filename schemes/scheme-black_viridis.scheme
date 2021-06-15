@@ -37,8 +37,6 @@ gsize gap             tiny
 gsize text            medsmall
 gsize body            medsmall
 gsize small_body      small
-*gsize heading        medium
-*gsize subheading     medsmall
 gsize axis_title      small
 gsize matrix_label    large
 gsize label           medsmall
@@ -245,7 +243,6 @@ linestyle textbox  none
 linewidth textbox  vvthin
 * Default for all other non-specified objects
 * NOTE: CIs in marginsplot is based on this
-*color p     white
 color p1      "253 231 37"
 color p2       "199 224 32"
 color p3       "143 215 68"
