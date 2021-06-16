@@ -45,7 +45,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 
 ### Change log
-* 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and older version were giving errors.
+* 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and the older scheme version was giving errors.
 * 16 Apr 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: **brbg**, **piyg**, **ptol**, **jet**, **w3d**
 * 08 Apr 2021: Repository created with pkg file and the following schemes added: **tableau**, **cividis**, **viridis**, **hue**
 
