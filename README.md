@@ -39,7 +39,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 
 
-:warning: **BUG!** A bug for Stata 15 was reported. If you are using Stata 15, then the gg schemes won't work due to comptability issues. Type ```which scheme-s2color.scheme```. If it shows 2017, then don't use gg schemes but the white and black schemes should be fine. If the version is 2019 or higher (Stata 16 and above), then all the schemes should run fine.
+:warning: A **bug** for Stata 15 was reported. If you are using Stata 15, then the gg schemes won't work due to comptability issues. Type ```which scheme-s2color.scheme```. If it shows 2017, then don't use gg schemes but the white and black schemes should be fine. If the version is 2019 or higher (Stata 16 and above), then all the schemes should run fine.
 
 
 
