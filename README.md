@@ -26,15 +26,14 @@ Install the schemes:
 net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
 ```
 
-You can try various graphs either using this test data set:
+You can simply download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile to test various graph schemes.
+
+You can also use this test data:
 ```
 use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
 ```
 
-or simply download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile.
-
-
-Please feel free to use your own datasets! 
+or your own datasets! 
 
 Please report errors or bugs or suggestions to improve the schemes. Not all graphs types have been tested and fine tuned. Several new schemes coming soon!
 
