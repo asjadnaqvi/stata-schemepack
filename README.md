@@ -31,11 +31,18 @@ You can try various graphs either using this test data set:
 use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
 ```
 
-or use your own dataset!
+or simply download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile.
+
+
+Please feel free to use your own datasets! 
+
+Please report errors or bugs or suggestions to improve the schemes. Not all graphs types have been tested and fine tuned. Several new schemes coming soon!
+
+
 
 **BUG!** A bug for Stata 15 was recently reported. If you are using Stata 15, then don't use the gg schemes. Type ```which scheme-s2color.scheme```. If it shows 2017, then gg schemes are not compatible. You can still use white and black schemes. If the version is 2019 (Stata 16 and above), then all the schemes should run fine.
 
-Please report errors or bugs or suggestions to improve the schemes. Several new schemes coming soon!
+
 
 ### Change log
 * 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and older version were giving errors.
