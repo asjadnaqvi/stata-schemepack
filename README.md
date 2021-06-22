@@ -48,9 +48,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 ### How can you support the schemes?
 
-You can support the schemes by using them :) 
-
-You can also make some small donation via PayPal:
+You can support the schemes by using them :) Since several people asked, you can also make some small donation via PayPal:
  
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=RQKQKHCN3YSSJ)
 
