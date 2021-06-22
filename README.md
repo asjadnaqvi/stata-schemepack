@@ -56,11 +56,6 @@ This is of course completely optional :) The real support is when you actually s
 
 
 
-
-
-The figures drawn from various schemes are showcased below.
-
-
 ## Tableau color scheme
 
 ### white_tableau
