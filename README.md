@@ -37,9 +37,7 @@ or your own datasets!
 
 Please report errors or bugs or suggestions to improve the schemes. Not all graphs types have been tested and fine tuned. Several new schemes coming soon!
 
-
-
-:warning: A **bug** for Stata 15 was reported. If you are using Stata 15, then the gg schemes won't work due to comptability issues. Type ```which scheme-s2color.scheme```. If it shows 2017, then don't use gg schemes but the white and black schemes should be fine. If the version is 2019 or higher (Stata 16 and above), then all the schemes should run fine.
+:warning: A **bug** for Stata 15 was reported (June 2021). If you are using Stata 15, then the gg schemes won't work due to comptability issues. Type ```which scheme-s2color.scheme```. If it shows 2017, then don't use gg schemes. The white and black schemes should be fine. If the version is 2019 or higher (Stata 16 and above), then all the schemes should run fine.
 
 
 
@@ -47,6 +45,17 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 * 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and the older scheme version was giving errors.
 * 16 Apr 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: **brbg**, **piyg**, **ptol**, **jet**, **w3d**
 * 08 Apr 2021: Repository created with pkg file and the following schemes added: **tableau**, **cividis**, **viridis**, **hue**
+
+### How can you support the schemes?
+
+If you like to support the schemes, then you can make some small donation via PayPal:
+ 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=RQKQKHCN3YSSJ)
+
+This is of course completely optional :) The real support is when you actually start using these schemes!
+
+
+
 
 
 The figures drawn from various schemes are showcased below.
