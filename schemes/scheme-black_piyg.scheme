@@ -31,6 +31,7 @@ color key_label    gs15
 color axis_title   gs15
 color tick_label   gs15
 color plabel             white
+color label     white
 // Sizes
 gsize                 medsmall
 gsize gap             tiny
@@ -39,7 +40,7 @@ gsize body            medsmall
 gsize small_body      small
 gsize axis_title      small
 gsize matrix_label    large
-gsize label           medsmall
+gsize label           small
 gsize plabel          vsmall
 gsize small_label     small
 gsize matrix_marklbl  small
@@ -348,6 +349,7 @@ color p15pie     "39 100 25"
 intensity bar     90
 intensity histogram         90
 intensity box    90
+intensity pie    90
 * Confidence Intervals
 intensity ci_area      inten90
 color ci_line         gs6

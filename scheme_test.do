@@ -1,5 +1,6 @@
 *************************
 *************************
+***                   ***
 ***   Stata Schemes   ***  v1
 ***                   ***
 ***         by        ***
@@ -7,9 +8,12 @@
 ***  The Stata Guide  ***  https://medium.com/the-stata-guide
 ***    on Medium      ***
 ***                   ***
-***                   *** comments/reports/feeback: asjadnaqvi@gmail.com
+***    28-Jun-2021    ***  comments/errors reports: asjadnaqvi@gmail.com
+***                   ***
 *************************
 *************************
+
+
 
 clear
 
@@ -66,7 +70,7 @@ twoway ///
 	, ///
 		legend(order(1 "group1" 2 "group2" 3 "group3"  4 "group4"  5 "group5" 6 "group6" 7 "group7" 8 "group8" 9 "group9" 10 "group10" 11 "group11" 12 "group12")) ///
 		title("Scatter plot") ///
-		note("By the Stata Guide") scheme(white_tableau)
+		note("By the Stata Guide") 
 		
 
 
@@ -108,14 +112,8 @@ graph pie var2 if group <= 10, ///
 *** Box plot
 
 graph box ///
-	var3 ///
-	var4 ///
-	var5 ///
-	var6 ///
-	var7 ///
-	var8 ///
+	var* ///
 		, ///
-		legend(order(1 "Var 1" 2 "Var 2" 3 "Var 3"  4 "Var 4"  5 "Var 5" 6 "Var 6")) ///
 		title("Box plot") ///
 		note("The Stata Guide", size(vsmall)) 
 
@@ -128,14 +126,9 @@ histogram var4, percent ///
 *** Bar graph
 
 graph bar ///
-	var3 ///
-	var4 ///	
-	var5 ///
-	var6 ///
-	var7 ///
-	var8 ///
+	var* ///
 		, ///
-		legend(order(1 "Var 1" 2 "Var 2" 3 "Var 3"  4 "Var 4"  5 "Var 5" 6 "Var 6")) ///
+		blabel(bar, format(%9.2f)) ///
 		title("Bar graph") ///
 		note("The Stata Guide", size(vsmall)) 
 
@@ -144,13 +137,8 @@ graph bar ///
 *** Horizontal bar graph
 
 graph hbar (mean) ///
-	var3 ///
-	var4 ///	
-	var5 ///
-	var6 ///
-	var7 ///
-	var8 ///
-	if group <= 10, ///
+	var* ///
+	if group <= 6, ///
 		over(group) ///
 		percentages stack	///
 		legend(order(1 "Var 1" 2 "Var 2" 3 "Var 3"  4 "Var 4"  5 "Var 5" 6 "Var 6")) ///

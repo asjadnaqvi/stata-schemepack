@@ -368,8 +368,10 @@ color p13pie     "231 107 243"
 color p14pie     "253 97 209"
 color p15pie     "255 103 164"
 * Intensity
-intensity bar     80
-intensity histogram         80
+intensity bar     90
+intensity histogram         90
+intensity box    90
+intensity pie    90
 * Confidence Intervals
 intensity ci_area      inten80
 color ci_line         gs13

@@ -1,15 +1,15 @@
 # Stata schemes
 
-In this folder are various new Stata schemes. The schemes have been programmed in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R.
+In this repository are various new Stata schemes. Most of the schemes have been programmed in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R.
 
-These schemes are procedurally generated where the colors and other information is introduced in the schemes via scripts. The core white scheme is based on the [Cleanplots theme](https://www.trentonmize.com/software/cleanplots) (Mize 2018) that itself is derived from the [plainplots theme](https://www.stata.com/meeting/switzerland16/slides/bischof-switzerland16.pdf) (Bischof 2017). Most of the elements have been overwritten but the simple structure of the dotted grid lines and the axis colors is maintained. I really like these features! The colors have been passed on to the scheme using Ben Jann's [colorpalette](http://repec.sowi.unibe.ch/stata/palettes/index.html) package (Jann 2018).
+These schemes are procedurally generated where the colors and other information is introduced in the schemes using scripts. The core white scheme is based on the [Cleanplots theme](https://www.trentonmize.com/software/cleanplots) (Mize 2018) that itself is derived from the [plainplots theme](https://www.stata.com/meeting/switzerland16/slides/bischof-switzerland16.pdf) (Bischof 2017). The colors have been passed on to the scheme using Ben Jann's [colorpalette](http://repec.sowi.unibe.ch/stata/palettes/index.html) package (Jann 2018).
 
 Since the schemes are scripted, this folder will be filled up with various schemes over time. It is also likely some schemes go through minor adjustments since not all possible graph combinations have been tested. Names and installation paths might change. Please check here for the updates.
 
 * The dofile contains the script to test the code.
 * The graph folder contains the high resolution sample figures.
 
-Link to the Medium article that describes these schemes: [Stata graph schemes by The Stata Guide](https://medium.com/the-stata-guide/stata-schemes-5ef99d099585)
+Link to the Medium article that describes these schemes: [Stata graph schemes by The Stata Guide](https://medium.com/the-stata-guide/stata-schemes-5ef99d099585). Here you can learn how to program your own schemes as well!
 
 
 ## How to use the schemes:
@@ -37,11 +37,13 @@ or your own datasets!
 
 Please report errors or bugs or suggestions to improve the schemes. Not all graphs types have been tested and fine tuned. Several new schemes coming soon!
 
-:warning: A **bug** for Stata 15 was reported (June 2021). If you are using Stata 15, then the gg schemes won't work due to comptability issues. Type ```which scheme-s2color.scheme```. If it shows 2017, then don't use gg schemes. The white and black schemes should be fine. If the version is 2019 or higher (Stata 16 and above), then all the schemes should run fine.
+:warning: A **bug** for Stata 15 was reported (June 2021). If you are using Stata 15, then the gg schemes won't work due to comptability issues. Type ```which scheme-s2color.scheme```. If it shows 2017, then don't use gg schemes. The white and black schemes should be fine. If the version is 2019 or higher (Stata 16+), then all the schemes should run fine.
 
 
 
 ### Change log
+* 28 Jun 2021: Minor errors in templates have been fixed. For example bar labels were showing in the wrong color in the black themes. The test file has been reduced in size. The preview graphs have been regenerated. The number of graphs show in the preview below have been reduced except for the tableau schemes. All files exist in the figure folder though.
+* 26 Jun 2021: Two new schemes added: neon and rainbow. Neon tests a new and more generic scheme generator script. Rainbow celebrates the 2021 Pride month and introduces the 6 pride flag colors in the schemes. This scheme is fairly limited in the sense that it only has six colors. But these are more than enough for presentations etc. This is also derived from the generic scheme template used for the Neon scheme.
 * 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and the older scheme version was giving errors.
 * 16 Apr 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: **brbg**, **piyg**, **ptol**, **jet**, **w3d**
 * 08 Apr 2021: Repository created with pkg file and the following schemes added: **tableau**, **cividis**, **viridis**, **hue**
@@ -54,9 +56,25 @@ You can support the schemes by using them :) Since several people asked, you can
 
 This is of course completely optional!
 
+# Preview
 
+A preview of the schemes is given below. The latest ones are put on top. Not every scheme has been fine tuned for each and every aspect. Regardless, all elements can be modified from the graph interface window, which overwrite the scheme defaults. Some schemes are fairly robust. For example, **white_tableau** and **white_w3d** work really well and I use them most of the time. Some themes are great for presentations. For example, the dark themes on dark backgrounds, or gg schemes which keep the focus on the graph.
+
+## Neon
+<img src="./figures/scatter_neon.png" height="200"><img src="./figures/line_neon.png" height="200">
+<img src="./figures/bar_neon.png" height="200"><img src="./figures/barh_neon.png" height="200">
+<img src="./figures/pie_neon.png" height="200"><img src="./figures/density_neon.png" height="200">
+<img src="./figures/box_neon.png" height="200"><img src="./figures/histogram_neon.png" height="200">
+
+## Rainbow
+
+<img src="./figures/scatter_rainbow.png" height="200"><img src="./figures/line_rainbow.png" height="200">
+<img src="./figures/bar_rainbow.png" height="200"><img src="./figures/barh_rainbow.png" height="200">
+<img src="./figures/pie_rainbow.png" height="200"><img src="./figures/density_rainbow.png" height="200">
+<img src="./figures/box_rainbow.png" height="200"><img src="./figures/histogram_rainbow.png" height="200">
 
 ## Tableau color scheme
+
 
 ### white_tableau
 <img src="./figures/scatter_white_tableau.png" height="200"><img src="./figures/line_white_tableau.png" height="200">
@@ -87,52 +105,40 @@ This is of course completely optional!
 
 ### white_cividis
 <img src="./figures/scatter_white_cividis.png" height="200"><img src="./figures/line_white_cividis.png" height="200">
-<img src="./figures/mlabel_white_cividis.png" height="200"><img src="./figures/bygraph_white_cividis.png" height="200">
 <img src="./figures/bar_white_cividis.png" height="200"><img src="./figures/barh_white_cividis.png" height="200">
 <img src="./figures/pie_white_cividis.png" height="200"><img src="./figures/density_white_cividis.png" height="200">
-<img src="./figures/ci_white_cividis.png" height="200"><img src="./figures/rcap_white_cividis.png" height="200">
 <img src="./figures/box_white_cividis.png" height="200"><img src="./figures/histogram_white_cividis.png" height="200">
 
 ### black_cividis
 <img src="./figures/scatter_black_cividis.png" height="200"><img src="./figures/line_black_cividis.png" height="200">
-<img src="./figures/mlabel_black_cividis.png" height="200"><img src="./figures/bygraph_black_cividis.png" height="200">
 <img src="./figures/bar_black_cividis.png" height="200"><img src="./figures/barh_black_cividis.png" height="200">
 <img src="./figures/pie_black_cividis.png" height="200"><img src="./figures/density_black_cividis.png" height="200">
-<img src="./figures/ci_black_cividis.png" height="200"><img src="./figures/rcap_black_cividis.png" height="200">
 <img src="./figures/box_black_cividis.png" height="200"><img src="./figures/histogram_black_cividis.png" height="200">
 
 ### gg_cividis
 <img src="./figures/scatter_gg_cividis.png" height="200"><img src="./figures/line_gg_cividis.png" height="200">
-<img src="./figures/mlabel_gg_cividis.png" height="200"><img src="./figures/bygraph_gg_cividis.png" height="200">
 <img src="./figures/bar_gg_cividis.png" height="200"><img src="./figures/barh_gg_cividis.png" height="200">
 <img src="./figures/pie_gg_cividis.png" height="200"><img src="./figures/density_gg_cividis.png" height="200">
-<img src="./figures/ci_gg_cividis.png" height="200"><img src="./figures/rcap_gg_cividis.png" height="200">
 <img src="./figures/box_gg_cividis.png" height="200"><img src="./figures/histogram_gg_cividis.png" height="200">
 
 ## Viridis color scheme
 
 ### white_viridis
 <img src="./figures/scatter_white_viridis.png" height="200"><img src="./figures/line_white_viridis.png" height="200">
-<img src="./figures/mlabel_white_viridis.png" height="200"><img src="./figures/bygraph_white_viridis.png" height="200">
 <img src="./figures/bar_white_viridis.png" height="200"><img src="./figures/barh_white_viridis.png" height="200">
 <img src="./figures/pie_white_viridis.png" height="200"><img src="./figures/density_white_viridis.png" height="200">
-<img src="./figures/ci_white_viridis.png" height="200"><img src="./figures/rcap_white_viridis.png" height="200">
 <img src="./figures/box_white_viridis.png" height="200"><img src="./figures/histogram_white_viridis.png" height="200">
 
 ### black_viridis
 <img src="./figures/scatter_black_viridis.png" height="200"><img src="./figures/line_black_viridis.png" height="200">
-<img src="./figures/mlabel_black_viridis.png" height="200"><img src="./figures/bygraph_black_viridis.png" height="200">
 <img src="./figures/bar_black_viridis.png" height="200"><img src="./figures/barh_black_viridis.png" height="200">
 <img src="./figures/pie_black_viridis.png" height="200"><img src="./figures/density_black_viridis.png" height="200">
-<img src="./figures/ci_black_viridis.png" height="200"><img src="./figures/rcap_black_viridis.png" height="200">
 <img src="./figures/box_black_viridis.png" height="200"><img src="./figures/histogram_black_viridis.png" height="200">
 
 ### gg_viridis
 <img src="./figures/scatter_gg_viridis.png" height="200"><img src="./figures/line_gg_viridis.png" height="200">
-<img src="./figures/mlabel_gg_viridis.png" height="200"><img src="./figures/bygraph_gg_viridis.png" height="200">
 <img src="./figures/bar_gg_viridis.png" height="200"><img src="./figures/barh_gg_viridis.png" height="200">
 <img src="./figures/pie_gg_viridis.png" height="200"><img src="./figures/density_gg_viridis.png" height="200">
-<img src="./figures/ci_gg_viridis.png" height="200"><img src="./figures/rcap_gg_viridis.png" height="200">
 <img src="./figures/box_gg_viridis.png" height="200"><img src="./figures/histogram_gg_viridis.png" height="200">
 
 
@@ -140,26 +146,20 @@ This is of course completely optional!
 
 ### white_hue
 <img src="./figures/scatter_white_hue.png" height="200"><img src="./figures/line_white_hue.png" height="200">
-<img src="./figures/mlabel_white_hue.png" height="200"><img src="./figures/bygraph_white_hue.png" height="200">
 <img src="./figures/bar_white_hue.png" height="200"><img src="./figures/barh_white_hue.png" height="200">
 <img src="./figures/pie_white_hue.png" height="200"><img src="./figures/density_white_hue.png" height="200">
-<img src="./figures/ci_white_hue.png" height="200"><img src="./figures/rcap_white_hue.png" height="200">
 <img src="./figures/box_white_hue.png" height="200"><img src="./figures/histogram_white_hue.png" height="200">
 
 ### black_hue
 <img src="./figures/scatter_black_hue.png" height="200"><img src="./figures/line_black_hue.png" height="200">
-<img src="./figures/mlabel_black_hue.png" height="200"><img src="./figures/bygraph_black_hue.png" height="200">
 <img src="./figures/bar_black_hue.png" height="200"><img src="./figures/barh_black_hue.png" height="200">
 <img src="./figures/pie_black_hue.png" height="200"><img src="./figures/density_black_hue.png" height="200">
-<img src="./figures/ci_black_hue.png" height="200"><img src="./figures/rcap_black_hue.png" height="200">
 <img src="./figures/box_black_hue.png" height="200"><img src="./figures/histogram_black_hue.png" height="200">
 
 ### gg_hue
 <img src="./figures/scatter_gg_hue.png" height="200"><img src="./figures/line_gg_hue.png" height="200">
-<img src="./figures/mlabel_gg_hue.png" height="200"><img src="./figures/bygraph_gg_hue.png" height="200">
 <img src="./figures/bar_gg_hue.png" height="200"><img src="./figures/barh_gg_hue.png" height="200">
 <img src="./figures/pie_gg_hue.png" height="200"><img src="./figures/density_gg_hue.png" height="200">
-<img src="./figures/ci_gg_hue.png" height="200"><img src="./figures/rcap_gg_hue.png" height="200">
 <img src="./figures/box_gg_hue.png" height="200"><img src="./figures/histogram_gg_hue.png" height="200">
 
 
@@ -167,26 +167,20 @@ This is of course completely optional!
 
 ### white_brbg
 <img src="./figures/scatter_white_brbg.png" height="200"><img src="./figures/line_white_brbg.png" height="200">
-<img src="./figures/mlabel_white_brbg.png" height="200"><img src="./figures/bygraph_white_brbg.png" height="200">
 <img src="./figures/bar_white_brbg.png" height="200"><img src="./figures/barh_white_brbg.png" height="200">
 <img src="./figures/pie_white_brbg.png" height="200"><img src="./figures/density_white_brbg.png" height="200">
-<img src="./figures/ci_white_brbg.png" height="200"><img src="./figures/rcap_white_brbg.png" height="200">
 <img src="./figures/box_white_brbg.png" height="200"><img src="./figures/histogram_white_brbg.png" height="200">
 
 ### black_brbg
 <img src="./figures/scatter_black_brbg.png" height="200"><img src="./figures/line_black_brbg.png" height="200">
-<img src="./figures/mlabel_black_brbg.png" height="200"><img src="./figures/bygraph_black_brbg.png" height="200">
 <img src="./figures/bar_black_brbg.png" height="200"><img src="./figures/barh_black_brbg.png" height="200">
 <img src="./figures/pie_black_brbg.png" height="200"><img src="./figures/density_black_brbg.png" height="200">
-<img src="./figures/ci_black_brbg.png" height="200"><img src="./figures/rcap_black_brbg.png" height="200">
 <img src="./figures/box_black_brbg.png" height="200"><img src="./figures/histogram_black_brbg.png" height="200">
 
 ### gg_brbg
 <img src="./figures/scatter_gg_brbg.png" height="200"><img src="./figures/line_gg_brbg.png" height="200">
-<img src="./figures/mlabel_gg_brbg.png" height="200"><img src="./figures/bygraph_gg_brbg.png" height="200">
 <img src="./figures/bar_gg_brbg.png" height="200"><img src="./figures/barh_gg_brbg.png" height="200">
 <img src="./figures/pie_gg_brbg.png" height="200"><img src="./figures/density_gg_brbg.png" height="200">
-<img src="./figures/ci_gg_brbg.png" height="200"><img src="./figures/rcap_gg_brbg.png" height="200">
 <img src="./figures/box_gg_brbg.png" height="200"><img src="./figures/histogram_gg_brbg.png" height="200">
 
 
@@ -194,26 +188,20 @@ This is of course completely optional!
 
 ### white_piyg
 <img src="./figures/scatter_white_piyg.png" height="200"><img src="./figures/line_white_piyg.png" height="200">
-<img src="./figures/mlabel_white_piyg.png" height="200"><img src="./figures/bygraph_white_piyg.png" height="200">
 <img src="./figures/bar_white_piyg.png" height="200"><img src="./figures/barh_white_piyg.png" height="200">
 <img src="./figures/pie_white_piyg.png" height="200"><img src="./figures/density_white_piyg.png" height="200">
-<img src="./figures/ci_white_piyg.png" height="200"><img src="./figures/rcap_white_piyg.png" height="200">
 <img src="./figures/box_white_piyg.png" height="200"><img src="./figures/histogram_white_piyg.png" height="200">
 
 ### black_piyg
 <img src="./figures/scatter_black_piyg.png" height="200"><img src="./figures/line_black_piyg.png" height="200">
-<img src="./figures/mlabel_black_piyg.png" height="200"><img src="./figures/bygraph_black_piyg.png" height="200">
 <img src="./figures/bar_black_piyg.png" height="200"><img src="./figures/barh_black_piyg.png" height="200">
 <img src="./figures/pie_black_piyg.png" height="200"><img src="./figures/density_black_piyg.png" height="200">
-<img src="./figures/ci_black_piyg.png" height="200"><img src="./figures/rcap_black_piyg.png" height="200">
 <img src="./figures/box_black_piyg.png" height="200"><img src="./figures/histogram_black_piyg.png" height="200">
 
 ### gg_piyg
 <img src="./figures/scatter_gg_piyg.png" height="200"><img src="./figures/line_gg_piyg.png" height="200">
-<img src="./figures/mlabel_gg_piyg.png" height="200"><img src="./figures/bygraph_gg_piyg.png" height="200">
 <img src="./figures/bar_gg_piyg.png" height="200"><img src="./figures/barh_gg_piyg.png" height="200">
 <img src="./figures/pie_gg_piyg.png" height="200"><img src="./figures/density_gg_piyg.png" height="200">
-<img src="./figures/ci_gg_piyg.png" height="200"><img src="./figures/rcap_gg_piyg.png" height="200">
 <img src="./figures/box_gg_piyg.png" height="200"><img src="./figures/histogram_gg_piyg.png" height="200">
 
 
@@ -221,26 +209,20 @@ This is of course completely optional!
 
 ### white_ptol
 <img src="./figures/scatter_white_ptol.png" height="200"><img src="./figures/line_white_ptol.png" height="200">
-<img src="./figures/mlabel_white_ptol.png" height="200"><img src="./figures/bygraph_white_ptol.png" height="200">
 <img src="./figures/bar_white_ptol.png" height="200"><img src="./figures/barh_white_ptol.png" height="200">
 <img src="./figures/pie_white_ptol.png" height="200"><img src="./figures/density_white_ptol.png" height="200">
-<img src="./figures/ci_white_ptol.png" height="200"><img src="./figures/rcap_white_ptol.png" height="200">
 <img src="./figures/box_white_ptol.png" height="200"><img src="./figures/histogram_white_ptol.png" height="200">
 
 ### black_ptol
 <img src="./figures/scatter_black_ptol.png" height="200"><img src="./figures/line_black_ptol.png" height="200">
-<img src="./figures/mlabel_black_ptol.png" height="200"><img src="./figures/bygraph_black_ptol.png" height="200">
 <img src="./figures/bar_black_ptol.png" height="200"><img src="./figures/barh_black_ptol.png" height="200">
 <img src="./figures/pie_black_ptol.png" height="200"><img src="./figures/density_black_ptol.png" height="200">
-<img src="./figures/ci_black_ptol.png" height="200"><img src="./figures/rcap_black_ptol.png" height="200">
 <img src="./figures/box_black_ptol.png" height="200"><img src="./figures/histogram_black_ptol.png" height="200">
 
 ### gg_ptol
 <img src="./figures/scatter_gg_ptol.png" height="200"><img src="./figures/line_gg_ptol.png" height="200">
-<img src="./figures/mlabel_gg_ptol.png" height="200"><img src="./figures/bygraph_gg_ptol.png" height="200">
 <img src="./figures/bar_gg_ptol.png" height="200"><img src="./figures/barh_gg_ptol.png" height="200">
 <img src="./figures/pie_gg_ptol.png" height="200"><img src="./figures/density_gg_ptol.png" height="200">
-<img src="./figures/ci_gg_ptol.png" height="200"><img src="./figures/rcap_gg_ptol.png" height="200">
 <img src="./figures/box_gg_ptol.png" height="200"><img src="./figures/histogram_gg_ptol.png" height="200">
 
 
@@ -248,26 +230,20 @@ This is of course completely optional!
 
 ### white_jet
 <img src="./figures/scatter_white_jet.png" height="200"><img src="./figures/line_white_jet.png" height="200">
-<img src="./figures/mlabel_white_jet.png" height="200"><img src="./figures/bygraph_white_jet.png" height="200">
 <img src="./figures/bar_white_jet.png" height="200"><img src="./figures/barh_white_jet.png" height="200">
 <img src="./figures/pie_white_jet.png" height="200"><img src="./figures/density_white_jet.png" height="200">
-<img src="./figures/ci_white_jet.png" height="200"><img src="./figures/rcap_white_jet.png" height="200">
 <img src="./figures/box_white_jet.png" height="200"><img src="./figures/histogram_white_jet.png" height="200">
 
 ### black_jet
 <img src="./figures/scatter_black_jet.png" height="200"><img src="./figures/line_black_jet.png" height="200">
-<img src="./figures/mlabel_black_jet.png" height="200"><img src="./figures/bygraph_black_jet.png" height="200">
 <img src="./figures/bar_black_jet.png" height="200"><img src="./figures/barh_black_jet.png" height="200">
 <img src="./figures/pie_black_jet.png" height="200"><img src="./figures/density_black_jet.png" height="200">
-<img src="./figures/ci_black_jet.png" height="200"><img src="./figures/rcap_black_jet.png" height="200">
 <img src="./figures/box_black_jet.png" height="200"><img src="./figures/histogram_black_jet.png" height="200">
 
 ### gg_jet
 <img src="./figures/scatter_gg_jet.png" height="200"><img src="./figures/line_gg_jet.png" height="200">
-<img src="./figures/mlabel_gg_jet.png" height="200"><img src="./figures/bygraph_gg_jet.png" height="200">
 <img src="./figures/bar_gg_jet.png" height="200"><img src="./figures/barh_gg_jet.png" height="200">
 <img src="./figures/pie_gg_jet.png" height="200"><img src="./figures/density_gg_jet.png" height="200">
-<img src="./figures/ci_gg_jet.png" height="200"><img src="./figures/rcap_gg_jet.png" height="200">
 <img src="./figures/box_gg_jet.png" height="200"><img src="./figures/histogram_gg_jet.png" height="200">
 
 
@@ -275,26 +251,20 @@ This is of course completely optional!
 
 ### white_w3d
 <img src="./figures/scatter_white_w3d.png" height="200"><img src="./figures/line_white_w3d.png" height="200">
-<img src="./figures/mlabel_white_w3d.png" height="200"><img src="./figures/bygraph_white_w3d.png" height="200">
 <img src="./figures/bar_white_w3d.png" height="200"><img src="./figures/barh_white_w3d.png" height="200">
 <img src="./figures/pie_white_w3d.png" height="200"><img src="./figures/density_white_w3d.png" height="200">
-<img src="./figures/ci_white_w3d.png" height="200"><img src="./figures/rcap_white_w3d.png" height="200">
 <img src="./figures/box_white_w3d.png" height="200"><img src="./figures/histogram_white_w3d.png" height="200">
 
 ### black_w3d
 <img src="./figures/scatter_black_w3d.png" height="200"><img src="./figures/line_black_w3d.png" height="200">
-<img src="./figures/mlabel_black_w3d.png" height="200"><img src="./figures/bygraph_black_w3d.png" height="200">
 <img src="./figures/bar_black_w3d.png" height="200"><img src="./figures/barh_black_w3d.png" height="200">
 <img src="./figures/pie_black_w3d.png" height="200"><img src="./figures/density_black_w3d.png" height="200">
-<img src="./figures/ci_black_w3d.png" height="200"><img src="./figures/rcap_black_w3d.png" height="200">
 <img src="./figures/box_black_w3d.png" height="200"><img src="./figures/histogram_black_w3d.png" height="200">
 
 ### gg_w3d
 <img src="./figures/scatter_gg_w3d.png" height="200"><img src="./figures/line_gg_w3d.png" height="200">
-<img src="./figures/mlabel_gg_w3d.png" height="200"><img src="./figures/bygraph_gg_w3d.png" height="200">
 <img src="./figures/bar_gg_w3d.png" height="200"><img src="./figures/barh_gg_w3d.png" height="200">
 <img src="./figures/pie_gg_w3d.png" height="200"><img src="./figures/density_gg_w3d.png" height="200">
-<img src="./figures/ci_gg_w3d.png" height="200"><img src="./figures/rcap_gg_w3d.png" height="200">
 <img src="./figures/box_gg_w3d.png" height="200"><img src="./figures/histogram_gg_w3d.png" height="200">
 
 
