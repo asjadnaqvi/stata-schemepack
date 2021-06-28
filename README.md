@@ -63,15 +63,13 @@ A preview of the schemes is given below. The latest ones are put on top. Not eve
 ## Neon
 <img src="./figures/scatter_neon.png" height="200"><img src="./figures/line_neon.png" height="200">
 <img src="./figures/bar_neon.png" height="200"><img src="./figures/barh_neon.png" height="200">
-<img src="./figures/pie_neon.png" height="200"><img src="./figures/density_neon.png" height="200">
-<img src="./figures/box_neon.png" height="200"><img src="./figures/histogram_neon.png" height="200">
+<img src="./figures/pie_neon.png" height="200"><img src="./figures/box_neon.png" height="200">
 
 ## Rainbow
 
 <img src="./figures/scatter_rainbow.png" height="200"><img src="./figures/line_rainbow.png" height="200">
 <img src="./figures/bar_rainbow.png" height="200"><img src="./figures/barh_rainbow.png" height="200">
-<img src="./figures/pie_rainbow.png" height="200"><img src="./figures/density_rainbow.png" height="200">
-<img src="./figures/box_rainbow.png" height="200"><img src="./figures/histogram_rainbow.png" height="200">
+<img src="./figures/pie_rainbow.png" height="200"><img src="./figures/box_rainbow.png" height="200">
 
 ## Tableau color scheme
 
