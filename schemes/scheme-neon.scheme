@@ -342,7 +342,7 @@ color p13arealine    "202 92 230"
 color p14arealine    "230 92 202"
 color p15arealine    "230 92 147"
 * Pie slices
-linewidth pie               thin
+linewidth pie               medium
 color ppieline    black
 color pielabel    black
 color p1pie      "230 92 92"
