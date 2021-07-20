@@ -50,7 +50,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 ### How can you support the schemes?
 
-You can support the schemes by using them :) 
+You can support the schemes by using them :smirk: 
 
 You can also:
 
