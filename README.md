@@ -11,21 +11,20 @@ These schemes are procedurally generated where the colors and other information 
 Link to the Medium article that describes these schemes: [Stata graph schemes by The Stata Guide](https://medium.com/the-stata-guide/stata-schemes-5ef99d099585). Here you can learn how to program your own schemes.
 
 
-## How to use the schemes:
+## How to install and use SCHEMEPACK
 
-The dofile in the folder can be copied and executed in Stata. Otherwise:
+To install SCHEMEPACK, either:
 
 Check the installation:
 ```applescript
 net d schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 ```
-
 and then type:
 ```applescript
 net install schemepack
 ```
 
-Or install the schemes:
+Or install the schemes directly :
 ```applescript
 net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
 ```
@@ -46,6 +45,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 
 ### Change log
+* 28 Oct 2021: `tsg_schemes` renamed to `schemepack` to make it more generic. Black schemes have a notch darker background (its not pure black). Bar graph outlines adjusted to make them more visible. Otherwise some schemes were blending into the background.
 * 28 Jun 2021: Minor errors in templates have been fixed. For example bar labels were showing in the wrong color in the black themes. The test file has been reduced in size. The preview graphs have been regenerated. The number of graphs show in the preview below have been reduced except for the tableau schemes. All files exist in the figure folder though.
 * 26 Jun 2021: Two new schemes added: neon and rainbow. Neon tests a new and more generic scheme generator script. Rainbow celebrates the 2021 Pride month and introduces the 6 pride flag colors in the schemes. This scheme is fairly limited in the sense that it only has six colors. But these are more than enough for presentations etc. This is also derived from the generic scheme template used for the Neon scheme.
 * 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and the older scheme version was giving errors.
