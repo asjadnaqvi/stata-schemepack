@@ -13,23 +13,19 @@ Link to the Medium article that describes these schemes: [Stata graph schemes by
 
 ## How to install and use SCHEMEPACK
 
-To install SCHEMEPACK, either:
+To install SCHEMEPACK, you can either install them directly from SSC (preferred):
 
-Check the installation:
-```applescript
-net d schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 ```
-and then type:
-```applescript
-net install schemepack
+ssc install schemepack, replace
 ```
 
-Or install the schemes directly :
+or install them from GitHub:
+
 ```applescript
 net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
 ```
 
-Once installed please see `help schemepack` for the schemes and test them out.
+Once installed please see `help schemepack` for the scheme descriptions and test them out.
 
 You can also download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile to test various graph schemes that use this test data:
 ```
@@ -45,7 +41,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 
 ### Change log
-* 28 Oct 2021: `tsg_schemes` renamed to `schemepack` to make it more generic. Black schemes have a notch darker background (its not pure black). Bar graph outlines adjusted to make them more visible. Otherwise some schemes were blending into the background.
+* 28 Oct 2021: *MAJOR UPDATE*: schemes released on SSC (`ssc install schemepack, replace`). They collection has been renamed from `tsg_schemes` to `schemepack` to make it more generic and easier to remember. Black schemes have a notch darker background (its not pure black). Bar graph outlines adjusted to make them more visible. Otherwise some schemes were blending into the background.
 * 28 Jun 2021: Minor errors in templates have been fixed. For example bar labels were showing in the wrong color in the black themes. The test file has been reduced in size. The preview graphs have been regenerated. The number of graphs show in the preview below have been reduced except for the tableau schemes. All files exist in the figure folder though.
 * 26 Jun 2021: Two new schemes added: neon and rainbow. Neon tests a new and more generic scheme generator script. Rainbow celebrates the 2021 Pride month and introduces the 6 pride flag colors in the schemes. This scheme is fairly limited in the sense that it only has six colors. But these are more than enough for presentations etc. This is also derived from the generic scheme template used for the Neon scheme.
 * 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and the older scheme version was giving errors.
