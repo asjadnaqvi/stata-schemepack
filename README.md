@@ -13,7 +13,7 @@ Link to the Medium article that describes these schemes: [Stata graph schemes by
 
 ## How to install and use SCHEMEPACK
 
-To install SCHEMEPACK, you can either get them directly from SSC (preferred):
+To install SCHEMEPACK, you can either get them directly from SSC (**preferred**):
 
 ```
 ssc install schemepack, replace
@@ -27,7 +27,7 @@ net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata
 
 Once installed please see `help schemepack` for the scheme descriptions and test them out.
 
-You can also download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile to test various graph schemes that use this test data:
+You can also download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile to test various graph schemes that uses this test data:
 ```
 use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
 ```
