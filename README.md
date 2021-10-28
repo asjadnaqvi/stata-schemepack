@@ -13,7 +13,7 @@ Link to the Medium article that describes these schemes: [Stata graph schemes by
 
 ## How to install and use SCHEMEPACK
 
-To install SCHEMEPACK, you can either install them directly from SSC (preferred):
+To install SCHEMEPACK, you can either get them directly from SSC (preferred):
 
 ```
 ssc install schemepack, replace
