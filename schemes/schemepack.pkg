@@ -1,0 +1,53 @@
+v 1.1
+d {bf:SCHEMEPACK}: ready-to-use Stata graph schemes. 
+d
+d
+d This package releases a suite of graph schemes as part of The Stata Guide (https://medium.com/the-stata-guide) series.
+d See the help file (help schemepack) for details after installation.
+d
+d Requires: Stata version 15 or higher. The schemes have not been tested with earlier versions.
+d
+d KW: Stata
+d KW: graphs
+d KW: schemes
+d
+d Distribution date: 28 Oct 2021
+d License: MIT
+d
+d Author: Asjad Naqvi (WU Wien/IIASA, Austria)
+d E-mail: asjadnaqvi@gmail.com
+d
+f scheme-rainbow.scheme
+f scheme-neon.scheme
+f scheme-black_tableau.scheme
+f scheme-white_tableau.scheme
+f scheme-gg_tableau.scheme
+f scheme-black_cividis.scheme
+f scheme-white_cividis.scheme
+f scheme-gg_cividis.scheme
+f scheme-black_viridis.scheme
+f scheme-white_viridis.scheme
+f scheme-gg_viridis.scheme
+f scheme-black_hue.scheme
+f scheme-white_hue.scheme
+f scheme-gg_hue.scheme
+f scheme-black_brbg.scheme
+f scheme-white_brbg.scheme
+f scheme-gg_brbg.scheme
+f scheme-black_piyg.scheme
+f scheme-white_piyg.scheme
+f scheme-gg_piyg.scheme
+f scheme-black_ptol.scheme
+f scheme-white_ptol.scheme
+f scheme-gg_ptol.scheme
+f scheme-black_jet.scheme
+f scheme-white_jet.scheme
+f scheme-gg_jet.scheme
+f scheme-black_w3d.scheme
+f scheme-white_w3d.scheme
+f scheme-gg_w3d.scheme
+f schemepack.sthlp
+
+
+
+

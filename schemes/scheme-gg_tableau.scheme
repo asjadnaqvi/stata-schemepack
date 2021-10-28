@@ -1,5 +1,5 @@
 * grey background --- Asjad Naqvi (2021)
-* modified from cleanplot (Mize 2018) and plainplot (Bischof 2017)
+* adapted from cleanplot (Mize 2018) and plainplot (Bischof 2017)
 *
 *
 *
@@ -305,6 +305,8 @@ color p12markline    "255 187 120"
 color p13markline    "152 223 138"
 color p14markline     "255 152 150"
 color p15markline     "197 176 213"
+** box plots
+color pboxline    black
 * Bar charts
 color pbarline    black
 color p1bar      "31 119 180"
@@ -358,8 +360,8 @@ color p13arealine    "152 223 138"
 color p14arealine    "255 152 150"
 color p15arealine    "197 176 213"
 * Pie slices
-color ppieline    black
-linestyle pie_line   medium
+color ppieline    gs14
+linestyle pie_line   medthick
 color p1pie      "31 119 180"
 color p2pie      "255 127 14"
 color p3pie      "44 160 44"
@@ -376,10 +378,10 @@ color p13pie     "152 223 138"
 color p14pie     "255 152 150"
 color p15pie     "197 176 213"
 * Intensity
-intensity bar     90
-intensity histogram         90
-intensity box    90
-intensity pie    90
+intensity bar     80
+intensity histogram         80
+intensity box    80
+intensity pie    80
 intensity ci_area      inten80
 color ci_line         gs13
 color ci2_line        gs13

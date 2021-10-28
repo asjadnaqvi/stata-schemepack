@@ -1,0 +1,69 @@
+{smcl}
+{hi:help schemepack}{...}
+{right:{browse "https://github.com/asjadnaqvi/Stata-schemes":schemepack v1.1 (GitHub)}}
+
+{hline}
+
+{title:SCHEMEPACK}
+
+{p 4 4 2}
+This package releases a suite graph schemes as part of {bf:{browse "https://medium.com/the-stata-guide":the Stata Guide}}. Several schemes are part of a series where the name define the background color: {it:white},{it:black}, and {it:gg}. 
+The {it:gg_*} schemes are similar to the {browse "https://ggplot2.tidyverse.org/index.html":ggplot2} style in R. There are also several standalone schemes like {it:neon} ({stata set scheme neon}) and {it:rainbow} ({stata set scheme rainbow}).
+
+{p 4 4 2}
+Most of the schemes are derived from the built-in {it:s2color}, {it:cleanplots} ({browse "https://www.trentonmize.com/software/cleanplots":Mize 2018}), 
+and {it:plainplot} from {it:blindschemes} ({browse "https://journals.sagepub.com/doi/10.1177/1536867X1701700313":Bischof 2017}). 
+Colors are derived from Ben Jann's {stata ssc install palettes, replace:{it:colorpalette}} package ({browse "https://www.stata-journal.com/article.html?article=gr0075":Jann 2018}).
+A sample data and dofile are provided on {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub} for testing the schemes.
+
+{p 4 4 2}
+Schemes can be defined inside dofiles using 'set scheme {it:<scheme name>}'. For example, {stata set scheme white_tableau} at the beginning of the dofile will set {it:white_tableau} as the default for the graphs.
+Schemes can also be set permanently using the {stata set scheme white_tableau, perm} option.
+They can also be used interactively while making graphs, for example, 'twoway (scatter y x), scheme(white_tableau)'.
+
+{p 4 4 2}
+Please see the {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub repository} for sample data, dofiles, gallery, and other updates including the release of new schemes.
+
+{title:Schemes}
+
+1. Use your own dataset or load auto:
+    {stata sysuse auto, clear}
+
+
+2. Click on a scheme:
+
+{it:Series:}
+    Tableau - {stata set scheme white_tableau:white_tableau} {stata set scheme black_tableau:black_tableau} {stata set scheme gg_tableau:gg_tableau}
+    Cividis - {stata set scheme white_cividis:white_cividis} {stata set scheme black_cividis:black_cividis} {stata set scheme gg_cividis:gg_cividis}
+    Viridis - {stata set scheme white_viridis:white_viridis} {stata set scheme black_viridis:black_viridis} {stata set scheme gg_viridis:gg_viridis}
+    Hue     - {stata set scheme white_hue:white_hue}     {stata set scheme black_hue:black_hue}     {stata set scheme gg_hue:gg_hue}
+    BrBg    - {stata set scheme white_brbg:white_brbg}    {stata set scheme black_brbg:black_brbg}    {stata set scheme gg_brbg:gg_brbg}
+    PiYg    - {stata set scheme white_piyg:white_piyg}    {stata set scheme black_piyg:black_piyg}    {stata set scheme gg_piyg:gg_piyg}
+    pTol    - {stata set scheme white_ptol:white_ptol}    {stata set scheme black_ptol:black_ptol}    {stata set scheme gg_ptol:gg_ptol}
+    Jet     - {stata set scheme white_jet:white_jet}     {stata set scheme black_jet:black_jet}     {stata set scheme gg_jet:gg_jet}
+    w3d     - {stata set scheme white_w3d:white_w3d}     {stata set scheme black_w3d:black_w3d}     {stata set scheme gg_w3d:gg_w3d}
+
+{it:Standalone:}
+    Rainbow - {stata set scheme rainbow:rainbow}
+    Neon    - {stata set scheme neon:neon}
+
+3. And try it out:
+
+    Bar     - {stata graph bar (mean) turn mpg trunk rep78 headroom gear_ratio}
+    Boxplot - {stata graph box turn mpg trunk rep78 headroom gear_ratio}
+
+Also try different graph types. See the complete {browse "https://github.com/asjadnaqvi/Stata-schemes":gallery here}. Once the schemes are loaded, various elements can be customized from the 
+graphical user interface (GUI) in the Graphics drop-down menu. Since minor elements might still be fine-tuned, please check for
+updates once in a while. Please give feedback and/or report errors if you find any.
+
+{hline}
+
+Keywords: Stata, graphs, schemes
+Version: {bf:schemepack} version 1.1 
+Date: 28 Oct 2021
+License: {browse "https://opensource.org/licenses/MIT":MIT}
+
+Author: {browse "https://github.com/asjadnaqvi":Asjad Naqvi} (WU Wien and IIASA, Austria)
+E-mail: asjadnaqvi@gmail.com
+Twitter: {browse "https://twitter.com/AsjadNaqvi":@AsjadNaqvi}
+
