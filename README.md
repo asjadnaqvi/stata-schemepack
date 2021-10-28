@@ -1,10 +1,9 @@
-# Stata schemes
+# SCHEMEPACK: a suite of Stata schemes 
 
 In this repository are various new Stata schemes. Most of the schemes have been programmed in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R.
 
 These schemes are procedurally generated where the colors and other information is introduced in the schemes using scripts. The core white scheme is based on the [Cleanplots theme](https://www.trentonmize.com/software/cleanplots) (Mize 2018) that itself is derived from the [plainplots theme](https://www.stata.com/meeting/switzerland16/slides/bischof-switzerland16.pdf) (Bischof 2017). The colors have been passed on to the scheme using Ben Jann's [colorpalette](http://repec.sowi.unibe.ch/stata/palettes/index.html) package (Jann 2018).
 
-Since the schemes are scripted, this folder will be filled up with various schemes over time. It is also likely some schemes go through minor adjustments since not all possible graph combinations have been tested. Names and installation paths might change. Please check here for the updates.
 
 * The dofile contains the script to test the code.
 * The graph folder contains the high resolution sample figures.
@@ -17,18 +16,23 @@ Link to the Medium article that describes these schemes: [Stata graph schemes by
 The dofile in the folder can be copied and executed in Stata. Otherwise:
 
 Check the installation:
-```
-net d tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
-```
-
-Install the schemes:
-```
-net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
+```applescript
+net d schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/")
 ```
 
-You can simply download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile to test various graph schemes.
+and then type:
+```applescript
+net install schemepack
+```
 
-You can also use this test data:
+Or install the schemes:
+```applescript
+net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
+```
+
+Once installed please see `help schemepack` for the schemes and test them out.
+
+You can also download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile to test various graph schemes that use this test data:
 ```
 use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
 ```
