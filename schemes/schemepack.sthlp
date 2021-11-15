@@ -43,14 +43,18 @@ Please see the {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub repo
     Jet     - {stata set scheme white_jet:white_jet}     {stata set scheme black_jet:black_jet}     {stata set scheme gg_jet:gg_jet}
     w3d     - {stata set scheme white_w3d:white_w3d}     {stata set scheme black_w3d:black_w3d}     {stata set scheme gg_w3d:gg_w3d}
 
-{it:Standalone:}
-    Rainbow - {stata set scheme rainbow:rainbow}
-    Neon    - {stata set scheme neon:neon}
+{it:Standalones:}
+    Rainbow            - {stata set scheme rainbow:rainbow}
+    Neon               - {stata set scheme neon:neon}
+    Taylor Swift's Red - {stata set scheme swift_red:swift_red}  
 
 3. And try it out:
 
-    Bar     - {stata graph bar (mean) turn mpg trunk rep78 headroom gear_ratio}
-    Boxplot - {stata graph box turn mpg trunk rep78 headroom gear_ratio}
+    Bar graph
+    {stata graph bar (mean) turn mpg trunk rep78 headroom gear_ratio, title(Bar graph)}
+    
+    Box plot
+    {stata graph box turn mpg trunk rep78 headroom gear_ratio, title(Box plot)}
 
 Also try different graph types. See the complete {browse "https://github.com/asjadnaqvi/Stata-schemes":gallery here}. Once the schemes are loaded, various elements can be customized from the 
 graphical user interface (GUI) in the Graphics drop-down menu. Since minor elements might still be fine-tuned, please check for
@@ -60,7 +64,7 @@ updates once in a while. Please give feedback and/or report errors if you find a
 
 Keywords: Stata, graphs, schemes
 Version: {bf:schemepack} version 1.1 
-Date: 28 Oct 2021
+Date: 15 Nov 2021
 License: {browse "https://opensource.org/licenses/MIT":MIT}
 
 Author: {browse "https://github.com/asjadnaqvi":Asjad Naqvi} (WU Wien and IIASA, Austria)

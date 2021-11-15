@@ -11,12 +11,13 @@ d KW: Stata
 d KW: graphs
 d KW: schemes
 d
-d Distribution date: 28 Oct 2021
+d Distribution date: 15 Nov 2021
 d License: MIT
 d
 d Author: Asjad Naqvi (WU Wien/IIASA, Austria)
 d E-mail: asjadnaqvi@gmail.com
 d
+f scheme-swift_red.scheme
 f scheme-rainbow.scheme
 f scheme-neon.scheme
 f scheme-black_tableau.scheme

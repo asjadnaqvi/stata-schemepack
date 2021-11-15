@@ -41,6 +41,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 
 ### Change log
+* 15 Nov 2021: A new scheme based on Taylor Swift's Red album colors added. Minor fixes to the help file.
 * 28 Oct 2021: *MAJOR UPDATE*: schemes released on SSC (`ssc install schemepack, replace`). They collection has been renamed from `tsg_schemes` to `schemepack` to make it more generic and easier to remember. Black schemes have a notch darker background (its not pure black). Bar graph outlines adjusted to make them more visible. Otherwise some schemes were blending into the background.
 * 28 Jun 2021: Minor errors in templates have been fixed. For example bar labels were showing in the wrong color in the black themes. The test file has been reduced in size. The preview graphs have been regenerated. The number of graphs show in the preview below have been reduced except for the tableau schemes. All files exist in the figure folder though.
 * 26 Jun 2021: Two new schemes added: neon and rainbow. Neon tests a new and more generic scheme generator script. Rainbow celebrates the 2021 Pride month and introduces the 6 pride flag colors in the schemes. This scheme is fairly limited in the sense that it only has six colors. But these are more than enough for presentations etc. This is also derived from the generic scheme template used for the Neon scheme.
@@ -62,12 +63,28 @@ You can also:
 
 A preview of the schemes is given below. The latest ones are put on top. Not every scheme has been fine tuned for each and every aspect. Regardless, all elements can be modified from the graph interface window, which overwrite the scheme defaults. Some schemes are fairly robust. For example, **white_tableau** and **white_w3d** work really well and I use them most of the time. Some themes are great for presentations. For example, the dark themes on dark backgrounds, or gg schemes which keep the focus on the graph.
 
-## Neon
+
+## Standalone schemes
+
+### swift_red 
+
+Taylor Swift dropped a new album Red, and we dropped a new Stata scheme celebrating it:
+
+<img src="./figures/scatter_swift_red.png" height="200"><img src="./figures/line_swift_red.png" height="200">
+<img src="./figures/bar_swift_red.png" height="200"><img src="./figures/barh_swift_red.png" height="200">
+<img src="./figures/pie_swift_red.png" height="200"><img src="./figures/box_swift_red.png" height="200">
+
+### neon 
+
+Glowing neons on a black background. Perfect for a dark beamer theme:
+
 <img src="./figures/scatter_neon.png" height="200"><img src="./figures/line_neon.png" height="200">
 <img src="./figures/bar_neon.png" height="200"><img src="./figures/barh_neon.png" height="200">
 <img src="./figures/pie_neon.png" height="200"><img src="./figures/box_neon.png" height="200">
 
-## Rainbow
+### rainbow 
+
+Celebrating the 2021 pride day:
 
 <img src="./figures/scatter_rainbow.png" height="200"><img src="./figures/line_rainbow.png" height="200">
 <img src="./figures/bar_rainbow.png" height="200"><img src="./figures/barh_rainbow.png" height="200">
