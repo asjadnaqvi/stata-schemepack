@@ -20,6 +20,7 @@ ssc install schemepack, replace
 ```
 
 or install them from GitHub:
+
 *(GitHub files might contain latest updates that have not been currently pushed to SSC)*.
 
 ```applescript
