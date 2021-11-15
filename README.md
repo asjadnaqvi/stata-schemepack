@@ -70,7 +70,7 @@ A preview of the schemes is given below. The latest ones are put on top. Not eve
 
 ### swift_red 
 
-Taylor Swift dropped a new album Red, and we dropped a new Stata scheme celebrating it:
+Taylor Swift dropped a new album, **Red**, and we dropped a new Stata scheme celebrating it:
 
 <img src="./figures/scatter_swift_red.png" height="200"><img src="./figures/line_swift_red.png" height="200">
 <img src="./figures/bar_swift_red.png" height="200"><img src="./figures/barh_swift_red.png" height="200">
@@ -78,7 +78,7 @@ Taylor Swift dropped a new album Red, and we dropped a new Stata scheme celebrat
 
 ### neon 
 
-Glowing neons on a black background. Perfect for a dark beamer theme:
+Glowing neons on a black background. Perfect for a dark beamer themes:
 
 <img src="./figures/scatter_neon.png" height="200"><img src="./figures/line_neon.png" height="200">
 <img src="./figures/bar_neon.png" height="200"><img src="./figures/barh_neon.png" height="200">
@@ -86,7 +86,7 @@ Glowing neons on a black background. Perfect for a dark beamer theme:
 
 ### rainbow 
 
-Celebrating the 2021 pride day:
+Celebrating pride (2021 edition):
 
 <img src="./figures/scatter_rainbow.png" height="200"><img src="./figures/line_rainbow.png" height="200">
 <img src="./figures/bar_rainbow.png" height="200"><img src="./figures/barh_rainbow.png" height="200">
