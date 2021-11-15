@@ -20,12 +20,12 @@ ssc install schemepack, replace
 ```
 
 or install them from GitHub:
+*(GitHub files might contain latest updates that have not been currently pushed to SSC)*.
 
 ```applescript
 net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
 ```
 
-GitHub files might contain latest updates that have not been currently pushed to SSC.
 
 Once installed, please see `help schemepack` for the scheme descriptions and test them out.
 
