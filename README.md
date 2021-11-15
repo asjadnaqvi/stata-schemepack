@@ -25,9 +25,9 @@ or install them from GitHub:
 net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
 ```
 
-GitHub files might contains latest updates that have not been currently pushed to SSC.
+GitHub files might contain latest updates that have not been currently pushed to SSC.
 
-Once installed please see `help schemepack` for the scheme descriptions and test them out.
+Once installed, please see `help schemepack` for the scheme descriptions and test them out.
 
 You can also download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile to test various graph schemes that uses this test data:
 ```
