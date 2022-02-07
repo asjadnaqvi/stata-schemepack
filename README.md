@@ -80,7 +80,7 @@ Taylor Swift dropped a new album, **Red**, and we dropped a new Stata scheme cel
 
 ### neon (12 colors)
 
-Glowing neons on a black background. Perfect for a dark beamer themes:
+Glowing neons on a black background. Perfect for a dark beamer presentation:
 
 <img src="./figures/scatter_neon.png" height="200"><img src="./figures/line_neon.png" height="200">
 <img src="./figures/bar_neon.png" height="200"><img src="./figures/barh_neon.png" height="200">
