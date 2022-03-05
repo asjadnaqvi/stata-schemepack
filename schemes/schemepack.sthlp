@@ -7,6 +7,9 @@
 {title:SCHEMEPACK}
 
 {p 4 4 2}
+{it:NOTE: This package requires Stata v15 or higher. Most schemes are defined using RGB colors, which can only be read in newer Stata versions.}
+
+{p 4 4 2}
 This package releases a suite graph schemes as part of {bf:{browse "https://medium.com/the-stata-guide":the Stata Guide}}. Several schemes are part of a series where the name define the background color: {it:white},{it:black}, and {it:gg}. 
 The {it:gg_*} schemes are similar to the {browse "https://ggplot2.tidyverse.org/index.html":ggplot2} style in R. There are also several standalone schemes like {it:neon} ({stata set scheme neon}) and {it:rainbow} ({stata set scheme rainbow}).
 
@@ -47,6 +50,7 @@ Please see the {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub repo
     Rainbow            - {stata set scheme rainbow:rainbow}
     Neon               - {stata set scheme neon:neon}
     Taylor Swift's Red - {stata set scheme swift_red:swift_red}  
+	Ukraine 		   - {stata set scheme swift_red:ukraine} 
 
 3. And try it out:
 

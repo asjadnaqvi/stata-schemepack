@@ -44,6 +44,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 
 ### Change log
+* 05 Mar 2022: A new scheme based on Ukraine's flag colors.
 * 15 Nov 2021: A new scheme based on Taylor Swift's Red album colors added. Minor fixes to the help file.
 * 28 Oct 2021: *MAJOR UPDATE*: schemes released on SSC (`ssc install schemepack, replace`). They collection has been renamed from `tsg_schemes` to `schemepack` to make it more generic and easier to remember. Black schemes have a notch darker background (its not pure black). Bar graph outlines adjusted to make them more visible. Otherwise some schemes were blending into the background.
 * 28 Jun 2021: Minor errors in templates have been fixed. For example bar labels were showing in the wrong color in the black themes. The test file has been reduced in size. The preview graphs have been regenerated. The number of graphs show in the preview below have been reduced except for the tableau schemes. All files exist in the figure folder though.
@@ -69,6 +70,13 @@ A preview of the schemes is given below. The latest ones are put on top. Not eve
 Each scheme has a standard number of built-in colors. Some schemes have been designed with few colors. These are highlighted in brackets in front of the scheme name. If no number is specified, the standard 12 color range is used. Colors are repeated if you have more graph elements than the defined number of colors. In this case, you can either: (a) think again about how much information you want to display, (b) cutomize elements like adding dotted or dashed lines etc., or (c) automate colors following the [Cutomizing color schemes](https://medium.com/the-stata-guide/covid-19-visualizations-with-stata-part-2-customizing-color-schemes-206af77d00ce) guide.
 
 ## Standalone schemes
+
+
+### Ukraine (8 colors)
+
+<img src="./figures/scatter_ukraine.png" height="200"><img src="./figures/line_ukraine.png" height="200">
+<img src="./figures/bar_ukraine.png" height="200"><img src="./figures/barh_ukraine.png" height="200">
+<img src="./figures/pie_ukraine.png" height="200"><img src="./figures/box_ukraine.png" height="200">
 
 ### swift_red (8 colors)
 
