@@ -1,6 +1,6 @@
 ![StataMin](https://img.shields.io/badge/stata-2015-blue) ![issues](https://img.shields.io/github/issues/asjadnaqvi/stata-schemes) ![license](https://img.shields.io/github/license/asjadnaqvi/stata-schemes) ![Stars](https://img.shields.io/github/stars/asjadnaqvi/stata-schemes) ![version](https://img.shields.io/github/v/release/asjadnaqvi/stata-schemes) ![release](https://img.shields.io/github/release-date/asjadnaqvi/stata-schemes)
 
-# SCHEMEPACK v1.1
+# SCHEMEPACK v1.2
 
 In this repository are various ready-to-use Stata schemes. Most of the schemes have been programmed in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R.
 
@@ -15,13 +15,13 @@ Link to the Medium article that describes these schemes: [Stata graph schemes by
 
 ## How to install and use SCHEMEPACK
 
-To install SCHEMEPACK, you can either get them directly from SSC (**preferred**):
+To install SCHEMEPACK, you can either get them directly from SSC (**v1.1**):
 
 ```
 ssc install schemepack, replace
 ```
 
-or install them from GitHub:
+or install them from GitHub (**v1.2**):
 
 *(GitHub files might contain latest updates that have not been currently pushed to SSC)*.
 
@@ -46,6 +46,7 @@ Please report errors or bugs or suggestions to improve the schemes. Not all grap
 
 
 ### Change log
+* 14 Aug 2022: Bug fixes to schemes files. Ukraine scheme slightly desaturated. Four new schemes added: cblind1 (color-blind friendly), tab1, tab2, tab3 (qualitative colors).
 * 05 Mar 2022: A new scheme based on Ukraine's flag colors.
 * 15 Nov 2021: A new scheme based on Taylor Swift's Red album colors added. Minor fixes to the help file.
 * 28 Oct 2021: *MAJOR UPDATE*: schemes released on SSC (`ssc install schemepack, replace`). They collection has been renamed from `tsg_schemes` to `schemepack` to make it more generic and easier to remember. Black schemes have a notch darker background (its not pure black). Bar graph outlines adjusted to make them more visible. Otherwise some schemes were blending into the background.
@@ -74,7 +75,31 @@ Each scheme has a standard number of built-in colors. Some schemes have been des
 ## Standalone schemes
 
 
-### Ukraine (8 colors)
+### tab1 (12 colors)
+
+<img src="./figures/scatter_tab1.png" height="200"><img src="./figures/line_tab1.png" height="200">
+<img src="./figures/bar_tab1.png" height="200"><img src="./figures/barh_tab1.png" height="200">
+<img src="./figures/pie_tab1.png" height="200"><img src="./figures/box_tab1.png" height="200">
+
+### tab2 (12 colors)
+
+<img src="./figures/scatter_tab2.png" height="200"><img src="./figures/line_tab2.png" height="200">
+<img src="./figures/bar_tab2.png" height="200"><img src="./figures/barh_tab2.png" height="200">
+<img src="./figures/pie_tab2.png" height="200"><img src="./figures/box_tab2.png" height="200">
+
+### tab3 (12 colors)
+
+<img src="./figures/scatter_tab3.png" height="200"><img src="./figures/line_tab3.png" height="200">
+<img src="./figures/bar_tab3.png" height="200"><img src="./figures/barh_tab3.png" height="200">
+<img src="./figures/pie_tab3.png" height="200"><img src="./figures/box_tab3.png" height="200">
+
+### cblind1 (10 colors)
+
+<img src="./figures/scatter_cblind1.png" height="200"><img src="./figures/line_cblind1.png" height="200">
+<img src="./figures/bar_cblind1.png" height="200"><img src="./figures/barh_cblind1.png" height="200">
+<img src="./figures/pie_cblind1.png" height="200"><img src="./figures/box_cblind1.png" height="200">
+
+### ukraine (9 colors)
 
 <img src="./figures/scatter_ukraine.png" height="200"><img src="./figures/line_ukraine.png" height="200">
 <img src="./figures/bar_ukraine.png" height="200"><img src="./figures/barh_ukraine.png" height="200">

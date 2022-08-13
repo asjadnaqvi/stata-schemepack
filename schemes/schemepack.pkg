@@ -1,22 +1,26 @@
-v 1.1
+v 1.2
 d {bf:SCHEMEPACK}: ready-to-use Stata graph schemes. 
 d
 d
 d This package releases a suite of graph schemes as part of The Stata Guide (https://medium.com/the-stata-guide) series.
 d See the help file (help schemepack) for details after installation.
 d
-d Requires: Stata version 15 or higher. The schemes have not been tested with earlier versions.
+d Requires: Stata version 15 or higher.
 d
 d KW: Stata
-d KW: graphs
+d KW: graph
 d KW: schemes
 d
-d Distribution date: 15 Nov 2021
+d Distribution-Date: 20220814
 d License: MIT
 d
-d Author: Asjad Naqvi (WU Wien/IIASA, Austria)
+d Author: Asjad Naqvi
 d E-mail: asjadnaqvi@gmail.com
 d
+f scheme-tab3.scheme
+f scheme-tab2.scheme
+f scheme-tab1.scheme
+f scheme-cblind1.scheme
 f scheme-ukraine.scheme
 f scheme-swift_red.scheme
 f scheme-rainbow.scheme
