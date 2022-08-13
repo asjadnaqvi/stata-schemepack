@@ -2,16 +2,16 @@
 
 # SCHEMEPACK v1.2
 
-In this repository are various ready-to-use Stata schemes. Most of the schemes have been programmed in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R.
+In this repository are various ready-to-use Stata schemes. The earlier schemes come in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R. The newer schemes are standalone versions with unique colors that allows the graphs to stand out.
 
-These schemes are procedurally generated where the colors and other information is introduced in the schemes using scripts. The core white scheme is based on the [Cleanplots theme](https://www.trentonmize.com/software/cleanplots) (Mize 2018) that itself is derived from the [plainplots theme](https://www.stata.com/meeting/switzerland16/slides/bischof-switzerland16.pdf) (Bischof 2017). The colors have been passed on to the scheme using Ben Jann's [colorpalette](http://repec.sowi.unibe.ch/stata/palettes/index.html) package (Jann 2018).
+Addition info:
 
-
-* The dofile contains the script to test the code.
-* The graph folder contains the high resolution sample figures.
+* The [scheme_test.do](scheme_test.do) contains the script to test the various schemes.
+* The [figures](/figures) folder contains the high-resolution images of the schemes.
 
 Link to the Medium article that describes these schemes: [Stata graph schemes by The Stata Guide](https://medium.com/the-stata-guide/stata-schemes-5ef99d099585). Here you can learn how to program your own schemes.
 
+Note that scheme file options, e.g. colors, lines, sizes, etc. might be subject to minor adjustments to improve their overall visual quality.
 
 ## How to install and use SCHEMEPACK
 
@@ -29,19 +29,19 @@ or install them from GitHub (**v1.2**):
 net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
 ```
 
-
 Once installed, please see `help schemepack` for the scheme descriptions and test them out.
 
-You can also download and run the [scheme_test.do](https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.do) dofile to test various graph schemes that uses this test data:
-```
+You can also download and run the [scheme_test.do](scheme_test.do) dofile to test various graph schemes that uses this test data:
+
+```applescript
 use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
 ```
 
-or your own datasets! 
+or try them out on your own datasets! If you want to revert back to the default Stata s2 scheme, then type `set scheme s2color`. Note that you can permanently set a scheme by typing `set scheme <name>, perm`.
 
-Please report errors or bugs or suggestions to improve the schemes. Not all graphs types have been tested and fine tuned. Several new schemes coming soon!
 
-:warning: A **bug** for Stata 15 was reported (June 2021). If you are using Stata 15, then the gg schemes won't work due to comptability issues. Type ```which scheme-s2color.scheme```. If it shows 2017, then don't use gg schemes. The white and black schemes should be fine. If the version is 2019 or higher (Stata 16+), then all the schemes should run fine.
+
+Please report errors or bugs or suggestions in the [Issues](https://github.com/asjadnaqvi/Stata-schemes/issues) section. 
 
 
 
