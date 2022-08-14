@@ -93,7 +93,7 @@ Each scheme has a standard number of built-in colors. Some schemes have been des
 <img src="./figures/bar_tab3.png" height="200"><img src="./figures/barh_tab3.png" height="200">
 <img src="./figures/pie_tab3.png" height="200"><img src="./figures/box_tab3.png" height="200">
 
-### cblind1 (10 colors)
+### cblind1 (10 colors) (color-blind friendly scheme)
 
 <img src="./figures/scatter_cblind1.png" height="200"><img src="./figures/line_cblind1.png" height="200">
 <img src="./figures/bar_cblind1.png" height="200"><img src="./figures/barh_cblind1.png" height="200">
@@ -113,7 +113,7 @@ Taylor Swift dropped a new album, **Red**, and we dropped a new Stata scheme cel
 <img src="./figures/bar_swift_red.png" height="200"><img src="./figures/barh_swift_red.png" height="200">
 <img src="./figures/pie_swift_red.png" height="200"><img src="./figures/box_swift_red.png" height="200">
 
-### neon (12 colors)
+### neon (12 colors) (pure black background)
 
 Glowing neons on a black background. Perfect for a dark beamer presentation:
 
@@ -132,7 +132,7 @@ Celebrating pride (2021 edition):
 ## Tableau color scheme
 
 
-### white_tableau
+### white_tableau (my default scheme)
 <img src="./figures/scatter_white_tableau.png" height="200"><img src="./figures/line_white_tableau.png" height="200">
 <img src="./figures/mlabel_white_tableau.png" height="200"><img src="./figures/bygraph_white_tableau.png" height="200">
 <img src="./figures/bar_white_tableau.png" height="200"><img src="./figures/barh_white_tableau.png" height="200">
