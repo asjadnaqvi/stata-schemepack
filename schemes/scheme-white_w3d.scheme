@@ -1,7 +1,4 @@
-* white background --- Asjad Naqvi (2021)
-* adapted from cleanplot (Mize 2018) and plainplot (Bischof 2017)
-*
-*
+* white --- Asjad Naqvi (2022)
 *
 sequence 1210
 label "white_w3d"   // auto generated

@@ -1,8 +1,4 @@
-* black background --- Asjad Naqvi (2021)
-* adapted from cleanplot (Mize 2018) and plainplot (Bischof 2017)
-*
-*
-*
+* black --- Asjad Naqvi (2022)
 sequence 1210
 label "black_viridis"
 #include s2color

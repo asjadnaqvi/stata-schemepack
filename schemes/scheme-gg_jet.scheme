@@ -1,7 +1,4 @@
-* grey background --- Asjad Naqvi (2021)
-* adapted from cleanplot (Mize 2018) and plainplot (Bischof 2017)
-*
-*
+* grey --- Asjad Naqvi (2022)
 *
 sequence 1210
 label "gg_jet"
@@ -25,8 +22,8 @@ gsize gap             tiny
 gsize text            medsmall
 gsize body            medsmall
 gsize small_body      small
-*gsize heading         medium
-*gsize subheading      medsmall
+* gsize heading         medium
+* gsize subheading      medsmall
 gsize axis_title      small
 gsize matrix_label    large
 gsize label           medsmall
@@ -78,8 +75,8 @@ gsize sts_risk_tick        zero
 linestyle  legend   none
 linestyle  plotregion  none
 anglestyle vertical_tick horizontal
-*numticks_g horizontal_minor  2
-*numticks_g horizontal_minor  2
+* numticks_g horizontal_minor  2
+* numticks_g horizontal_minor  2
 linewidth xyline         medthin
 linewidth histogram      vthin
 linewidth bar            vthin
@@ -243,7 +240,7 @@ color matrix_plotregion  white
 color matplotregion_line black
 * Default for all other non-specified objects
 * NOTE: CIs in marginsplot is based on this
-*color p      black
+* color p      black
 color p1      "0 0 128"
 color p2       "0 0 210"
 color p3       "0 18 255"

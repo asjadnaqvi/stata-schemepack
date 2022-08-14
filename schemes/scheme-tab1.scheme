@@ -1,21 +1,19 @@
-* white background --- Asjad Naqvi (2021)
-* modified from cleanplot (Mize 2018) and plainplot (Bischof 2017)
-*
-*
-*
+* Generic --- Asjad Naqvi (2022)
 sequence 1210
-label "white_set3"   // auto generated
+label "tab1"
 #include s2color
 // positions and sizes
-numstyle pcycle             15
-clockdir legend_position     3
+numstyle pcycle             12
+clockdir legend_position     6
 clockdir by_legend_position  6
-numstyle legend_cols         1
+numstyle legend_cols         6
 numstyle legend_rows         0
-gsize legend_key_xsize       5
-yesno legend_col_first       no
+gsize legend_key_xsize       3
+horizontal heading   left
 yesno legend_row_first       yes
-margin axis_title small
+yesno legend_col_first       no
+margin title  medium
+margin axis_title  vsmall
 graphsize             5
 graphsize x           6
 graphsize y           4
@@ -24,23 +22,22 @@ gsize                 medsmall
 gsize gap             tiny
 gsize text            medsmall
 gsize body            medsmall
-gsize small_body      small
+gsize small_body      1.8
 gsize axis_title      small
 gsize matrix_label    large
-gsize label           medsmall
+gsize label           small
 gsize plabel          vsmall
 gsize small_label     small
 gsize matrix_marklbl  small
-gsize key_label       small
-gsize note            small
+gsize key_label       vsmall
+gsize note            vsmall
 gsize star            medsmall
 gsize text_option     medsmall
 gsize dot_rectangle   third_tiny
-gsize axis_space      half_tiny
-gsize axis_title_gap  minuscule
+gsize axis_space      0.5
+gsize axis_title_gap  0.5
 gsize tick            tiny
 gsize minortick       half_tiny
-* gsize minortick       .55
 gsize tickgap         half_tiny
 gsize notickgap       tiny
 gsize tick_label      small
@@ -49,7 +46,7 @@ gsize minortick_label vsmall
 gsize filled_text     medsmall
 gsize reverse_big     large
 gsize alternate_gap   zero
-gsize title_gap       vsmall
+gsize title_gap       medium
 gsize key_gap         vsmall
 gsize key_linespace   vsmall
 gsize star_gap        minuscule
@@ -74,28 +71,27 @@ gsize sts_risk_label       medsmall
 gsize sts_risk_title       medsmall
 gsize sts_risk_tick        zero
 linestyle  legend   none
-linestyle  plotregion  none
+linestyle  xyline   thin
 anglestyle vertical_tick horizontal
-linewidth xyline         medthin
+linewidth xyline         0.06
 linewidth histogram      vthin
 linewidth bar            vthin
 linewidth p                 medium
-linewidth axisline          medthin
-linewidth tick              thin
-linewidth minortick         thin
+linewidth axisline          thin
+linewidth tick              vthin
+linewidth minortick         vthin
 linewidth background        thin
 linewidth foreground        thin
-linewidth major_grid        thin
-linewidth minor_grid        thin
+linewidth major_grid        0.04
+linewidth minor_grid        0.04
 linewidth refmarker         vthin
 linewidth matrixmark        vthin
 linewidth dots              thin
 linewidth dot_line          thin
 linewidth dot_area          thin
 linewidth dotmark           thin
-linewidth plotregion        vthin
+linewidth plotregion        none
 linewidth legend            vthin
-linewidth pie               medthin
 linewidth reverse_big       vthin
 linewidth sunflower         vthin
 linewidth matrix_plotregion vthin
@@ -155,30 +151,15 @@ linewidth p15lineplot   medium
 linewidth small    small
 linewidth histogram      vthin
 linewidth pbar           vthin
-linewidth pbox       vthin
-linewidth pmark    vthin
-linewidth refline        medthin
+linewidth pmark    vvthin
+linewidth refline        thin
+linewidth tickline   thin
 yesno draw_minor_vgrid   yes
 yesno draw_minor_hgrid   yes
 symbolsize            medsmall
 symbolsize p          medsmall
 * Default symbol shapes
-symbol p      smcircle
-symbol p1         smcircle
-symbol p2         smcircle
-symbol p3         smcircle
-symbol p4         smcircle
-symbol p5         smcircle
-symbol p6         smcircle
-symbol p7         smcircle
-symbol p8         smcircle
-symbol p9         smcircle
-symbol p10        smcircle
-symbol p11        smcircle
-symbol p12        smcircle
-symbol p13        smcircle
-symbol p14        smcircle
-symbol p15        smcircle
+symbol p     circle
 linepattern p1lineplot   solid
 linepattern p2lineplot   solid
 linepattern p3lineplot   solid
@@ -209,169 +190,177 @@ linepattern p12line   solid
 linepattern p13line   solid
 linepattern p14line   solid
 linepattern p15line    solid
-linepattern xyline       shortdash
 linepattern ci           dash
 linepattern ci_area      solid
-linepattern grid         dot
-linepattern major_grid   dot
+linepattern grid         solid
+linepattern major_grid   solid
 linepattern minor_grid   dot
-yesno extend_axes_low       no
-yesno extend_axes_high      no
-yesno extend_axes_full_low  no
-yesno extend_axes_full_high no
 // Colors //
-* White background for all plots
-color background             white
 * Textboxes
-color box             gs15
-color textbox         gs15
-color mat_label_box   gs15
+color box              "255 255 255"
+color textbox          "255 255 255"
+color mat_label_box    "0 0 0"
 yesno textbox               no
 linestyle textbox   none
 linewidth textbox   vvthin
-color heading    black
-color subheading      black
-color body     black
-color small_body   black
-color key_label    black
-color axis_title   black
-color tick_label   black
-color plabel             black
-color p1      "0 156 134"
-color p2       "140 177 61"
-color p3       "187 132 91"
-color p4       "178 81 143"
-color p5       "195 43 53"
-color p6       "0 117 197"
-color p7       "164 112 22"
-color p8       "151 134 0"
-color p9       "125 151 13"
-color p10       "218 110 173"
-color p11      "199 123 160"
-color p12       "157 77 163"
-color p13       "163 90 149"
-color p14       "119 170 62"
-color p15       "179 163 0"
+color background          "255 255 255"
+color plotregion          "255 255 255"
+color plotregion_line   "0 0 0"
+color graphregion    "255 255 255"
+color legend     "255 255 255"
+color heading     "0 0 0"
+color subheading       "0 0 0"
+color body      "0 0 0"
+color small_body    "0 0 0"
+color key_label     "0 0 0"
+color axis_title    "0 0 0"
+color tick_label    "0 0 0"
+color plabel              "0 0 0"
+color label      "0 0 0"
+color p1      "78 159 80"
+color p2       "135 209 128"
+color p3       "239 138 12"
+color p4       "252 198 109"
+color p5       "60 168 188"
+color p6       "152 217 228"
+color p7       "148 163 35"
+color p8       "195 206 61"
+color p9       "160 132 0"
+color p10       "247 212 42"
+color p11      "38 137 126"
+color p12       "141 191 168"
+color p13      color13
+color p14      color14
+color p15      color15
 * Default for lines (matching the symbols)
-color p1line     "0 156 134"
-color p2line     "140 177 61"
-color p3line     "187 132 91"
-color p4line     "178 81 143"
-color p5line      "195 43 53"
-color p6line      "0 117 197"
-color p7line      "164 112 22"
-color p8line      "151 134 0"
-color p9line      "125 151 13"
-color p10line      "218 110 173"
-color p11line     "199 123 160"
-color p12line     "157 77 163"
-color p13line      "163 90 149"
-color p14line      "119 170 62"
-color p15line      "179 163 0"
-color p1lineplot    "0 156 134"
-color p2lineplot    "140 177 61"
-color p3lineplot    "187 132 91"
-color p4lineplot    "178 81 143"
-color p5lineplot     "195 43 53"
-color p6lineplot    "0 117 197"
-color p7lineplot     "164 112 22"
-color p8lineplot     "151 134 0"
-color p9lineplot     "125 151 13"
-color p10lineplot     "218 110 173"
-color p11lineplot    "199 123 160"
-color p12lineplot    "157 77 163"
-color p13lineplot    "163 90 149"
-color p14lineplot     "119 170 62"
-color p15lineplot     "179 163 0"
-color p1markline    "0 156 134"
-color p2markline    "140 177 61"
-color p3markline    "187 132 91"
-color p4markline    "178 81 143"
-color p5markline     "195 43 53"
-color p6markline    "0 117 197"
-color p7markline     "164 112 22"
-color p8markline     "151 134 0"
-color p9markline     "125 151 13"
-color p10markline     "218 110 173"
-color p11markline    "199 123 160"
-color p12markline    "157 77 163"
-color p13markline    "163 90 149"
-color p14markline     "119 170 62"
-color p15markline     "179 163 0"
+color p1line     "78 159 80"
+color p2line     "135 209 128"
+color p3line     "239 138 12"
+color p4line     "252 198 109"
+color p5line      "60 168 188"
+color p6line      "152 217 228"
+color p7line      "148 163 35"
+color p8line      "195 206 61"
+color p9line      "160 132 0"
+color p10line      "247 212 42"
+color p11line     "38 137 126"
+color p12line     "141 191 168"
+color p13line     color13
+color p14line     color14
+color p15line     color15
+color p1lineplot    "78 159 80"
+color p2lineplot    "135 209 128"
+color p3lineplot    "239 138 12"
+color p4lineplot    "252 198 109"
+color p5lineplot     "60 168 188"
+color p6lineplot    "152 217 228"
+color p7lineplot     "148 163 35"
+color p8lineplot     "195 206 61"
+color p9lineplot     "160 132 0"
+color p10lineplot     "247 212 42"
+color p11lineplot    "38 137 126"
+color p12lineplot    "141 191 168"
+color p13lineplot   color13
+color p14lineplot    color14
+color p15lineplot    color15
+color pmarkline     "0 0 0"
+* color p1markline    "78 159 80"
+* color p2markline    "135 209 128"
+* color p3markline    "239 138 12"
+* color p4markline    "252 198 109"
+* color p5markline     "60 168 188"
+* color p6markline    "152 217 228"
+* color p7markline     "148 163 35"
+* color p8markline     "195 206 61"
+* color p9markline     "160 132 0"
+* color p10markline    "247 212 42"
+* color p11markline    "38 137 126"
+* color p12markline    "141 191 168"
+* color p13markline   color13
+* color p14markline   color14
+* color p15markline   color15
 * Bar charts
-color pbarline    black
-color p1bar      "0 156 134"
-color p2bar      "140 177 61"
-color p3bar      "187 132 91"
-color p4bar      "178 81 143"
-color p5bar      "195 43 53"
-color p6bar      "0 117 197"
-color p7bar      "164 112 22"
-color p8bar      "151 134 0"
-color p9bar      "125 151 13"
-color p10bar     "218 110 173"
-color p11bar     "199 123 160"
-color p12bar     "157 77 163"
-color p13bar     "163 90 149"
-color p14bar     "119 170 62"
-color p15bar     "179 163 0"
+color pbarline    white
+color p1bar      "78 159 80"
+color p2bar      "135 209 128"
+color p3bar      "239 138 12"
+color p4bar      "252 198 109"
+color p5bar      "60 168 188"
+color p6bar      "152 217 228"
+color p7bar      "148 163 35"
+color p8bar      "195 206 61"
+color p9bar      "160 132 0"
+color p10bar     "247 212 42"
+color p11bar     "38 137 126"
+color p12bar     "141 191 168"
+color p13bar    color13
+color p14bar    color14
+color p15bar    color15
 * Confidence Intervals and other rarea plots
 color parea     gs13
 color parealine    gs13
 linewidth parealine   thin
 * Area plots
-color p1area     "0 156 134"
-color p2area     "140 177 61"
-color p3area     "187 132 91"
-color p4area     "178 81 143"
-color p5area     "195 43 53"
-color p6area     "0 117 197"
-color p7area     "164 112 22"
-color p8area     "151 134 0"
-color p9area     "125 151 13"
-color p10area     "218 110 173"
-color p11area     "199 123 160"
-color p12area     "157 77 163"
-color p13area     "163 90 149"
-color p14area     "119 170 62"
-color p15area     "179 163 0"
-color p1arealine    "0 156 134"
-color p2arealine    "140 177 61"
-color p3arealine    "187 132 91"
-color p4arealine    "178 81 143"
-color p5arealine    "195 43 53"
-color p6arealine    "0 117 197"
-color p7arealine    "164 112 22"
-color p8arealine    "151 134 0"
-color p9arealine    "125 151 13"
-color p10arealine    "218 110 173"
-color p11arealine    "199 123 160"
-color p12arealine    "157 77 163"
-color p13arealine    "163 90 149"
-color p14arealine    "119 170 62"
-color p15arealine    "179 163 0"
+color p1area     "78 159 80"
+color p2area     "135 209 128"
+color p3area     "239 138 12"
+color p4area     "252 198 109"
+color p5area     "60 168 188"
+color p6area     "152 217 228"
+color p7area     "148 163 35"
+color p8area     "195 206 61"
+color p9area     "160 132 0"
+color p10area     "247 212 42"
+color p11area     "38 137 126"
+color p12area     "141 191 168"
+color p13area    color13
+color p14area    color14
+color p15area    color15
+color p1arealine    "78 159 80"
+color p2arealine    "135 209 128"
+color p3arealine    "239 138 12"
+color p4arealine    "252 198 109"
+color p5arealine    "60 168 188"
+color p6arealine    "152 217 228"
+color p7arealine    "148 163 35"
+color p8arealine    "195 206 61"
+color p9arealine    "160 132 0"
+color p10arealine    "247 212 42"
+color p11arealine    "38 137 126"
+color p12arealine    "141 191 168"
+color p13arealine   color13
+color p14arealine   color14
+color p15arealine   color15
 * Pie slices
-color ppieline    black
-color p1pie      "0 156 134"
-color p2pie      "140 177 61"
-color p3pie      "187 132 91"
-color p4pie      "178 81 143"
-color p5pie      "195 43 53"
-color p6pie      "0 117 197"
-color p7pie      "164 112 22"
-color p8pie      "151 134 0"
-color p9pie      "125 151 13"
-color p10pie     "218 110 173"
-color p11pie     "199 123 160"
-color p12pie     "157 77 163"
-color p13pie     "163 90 149"
-color p14pie     "119 170 62"
-color p15pie     "179 163 0"
+linewidth pie               medium
+color ppieline     "255 255 255"
+color pielabel     "255 255 255"
+color p1pie      "78 159 80"
+color p2pie      "135 209 128"
+color p3pie      "239 138 12"
+color p4pie      "252 198 109"
+color p5pie      "60 168 188"
+color p6pie      "152 217 228"
+color p7pie      "148 163 35"
+color p8pie      "195 206 61"
+color p9pie      "160 132 0"
+color p10pie     "247 212 42"
+color p11pie     "38 137 126"
+color p12pie     "141 191 168"
+color p13pie    color13
+color p14pie    color14
+color p15pie    color15
+* Box lines
+color   pboxline    "0 0 0"
+linewidth  pbox       thin
+symbol   pbox
+linewidth  pboxmark   vthin
+color       pboxmarkline   "0 0 0"
 * Intensity
-intensity bar     90
-intensity histogram         90
-intensity box    90
-intensity pie    90
+intensity bar     95
+intensity histogram         95
+intensity box    95
+intensity pie    95
 * Confidence Intervals
 intensity ci_area      inten80
 color ci_line         gs13
@@ -383,15 +372,16 @@ color ci2_area        gs13
 color ci_symbol       gs13
 color ci2_symbol      gs13
 * Histograms
-color histogram     "0 156 134"
+color histogram     "78 159 80"
 color histogram_line  black
-color xyline     gs8
-color tick            gs8
-color minortick       gs8
-color grid                  gs8
-color major_grid            gs8
-color minor_grid            gs8
-color axisline        gs8
+* color xyline     white
+* color tickline   white
+color tick             "0 0 0"
+color minortick        "0 0 0"
+color grid                   "0 0 0"
+color major_grid             "0 0 0"
+color minor_grid             "0 0 0"
+color axisline         "0 0 0"
 color matrix           gs6
 color matrixmarkline   gs6
 color refmarker        gs11

@@ -1,6 +1,4 @@
-* TSG Rainbow --- Asjad Naqvi (2021)
-*
-*
+* Rainbow --- Asjad Naqvi (2021)
 *
 sequence 1210
 label "rainbow"   // auto generated
@@ -273,21 +271,21 @@ color p13lineplot   color13
 color p14lineplot    color14
 color p15lineplot    color15
 color pmarkline    black
-*color p1markline    "255 36 0"
-*color p2markline    "255 132 0"
-*color p3markline    "255 209 42"
-*color p4markline    "65 163 23"
-*color p5markline     "0 128 255"
-*color p6markline    "162 59 236"
-*color p7markline    color7
-*color p8markline    color8
-*color p9markline    color9
-*color p10markline    color10
-*color p11markline   color11
-*color p12markline   color12
-*color p13markline   color13
-*color p14markline    color14
-*color p15markline    color15
+* color p1markline    "255 36 0"
+* color p2markline    "255 132 0"
+* color p3markline    "255 209 42"
+* color p4markline    "65 163 23"
+* color p5markline     "0 128 255"
+* color p6markline    "162 59 236"
+* color p7markline    color7
+* color p8markline    color8
+* color p9markline    color9
+* color p10markline   color10
+* color p11markline   color11
+* color p12markline   color12
+* color p13markline   color13
+* color p14markline   color14
+* color p15markline   color15
 * Bar charts
 color pbarline    black
 color p1bar      "255 36 0"
@@ -379,8 +377,8 @@ color ci2_symbol      gs13
 * Histograms
 color histogram     "255 36 0"
 color histogram_line  black
-*color xyline     white
-*color tickline    white
+* color xyline     white
+* color tickline   white
 color tick            gs8
 color minortick       gs8
 color grid                  gs8

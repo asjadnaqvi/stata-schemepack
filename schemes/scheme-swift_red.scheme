@@ -1,9 +1,6 @@
-* TSG Rainbow --- Asjad Naqvi (2021)
-*
-*
-*
+* Generic --- Asjad Naqvi (2022)
 sequence 1210
-label "swift_red"   // auto generated
+label "swift_red"
 #include s2color
 // positions and sizes
 numstyle pcycle             8
@@ -74,13 +71,13 @@ gsize sts_risk_label       medsmall
 gsize sts_risk_title       medsmall
 gsize sts_risk_tick        zero
 linestyle  legend   none
-linestyle  xyline   medthin
+linestyle  xyline   thin
 anglestyle vertical_tick horizontal
 linewidth xyline         0.06
 linewidth histogram      vthin
 linewidth bar            vthin
 linewidth p                 medium
-linewidth axisline          medthin
+linewidth axisline          thin
 linewidth tick              vthin
 linewidth minortick         vthin
 linewidth background        thin
@@ -155,7 +152,7 @@ linewidth small    small
 linewidth histogram      vthin
 linewidth pbar           vthin
 linewidth pmark    vvthin
-linewidth refline        medthin
+linewidth refline        thin
 linewidth tickline   thin
 yesno draw_minor_vgrid   yes
 yesno draw_minor_hgrid   yes
@@ -163,12 +160,6 @@ symbolsize            medsmall
 symbolsize p          medsmall
 * Default symbol shapes
 symbol p     circle
-*symbol p1         circle_hollow
-*symbol p2         diamond_hollow
-*symbol p3         triangle_hollow
-*symbol p4         square_hollow
-*symbol p5         plus
-*symbol p6         lgx
 linepattern p1lineplot   solid
 linepattern p2lineplot   solid
 linepattern p3lineplot   solid
@@ -199,7 +190,6 @@ linepattern p12line   solid
 linepattern p13line   solid
 linepattern p14line   solid
 linepattern p15line    solid
-*linepattern xyline       solid
 linepattern ci           dash
 linepattern ci_area      solid
 linepattern grid         solid
@@ -274,23 +264,23 @@ color p13lineplot   color13
 color p14lineplot    color14
 color p15lineplot    color15
 color pmarkline     "87 64 92"
-*color p1markline    "227 51 101"
-*color p2markline    "181 76 110"
-*color p3markline    "134 85 117"
-*color p4markline    "155 110 126"
-*color p5markline     "195 157 121"
-*color p6markline    "223 192 136"
-*color p7markline     "220 202 148"
-*color p8markline     "215 212 162"
-*color p9markline    color9
-*color p10markline    color10
-*color p11markline   color11
-*color p12markline   color12
-*color p13markline   color13
-*color p14markline    color14
-*color p15markline    color15
+* color p1markline    "227 51 101"
+* color p2markline    "181 76 110"
+* color p3markline    "134 85 117"
+* color p4markline    "155 110 126"
+* color p5markline     "195 157 121"
+* color p6markline    "223 192 136"
+* color p7markline     "220 202 148"
+* color p8markline     "215 212 162"
+* color p9markline    color9
+* color p10markline   color10
+* color p11markline   color11
+* color p12markline   color12
+* color p13markline   color13
+* color p14markline   color14
+* color p15markline   color15
 * Bar charts
-color pbarline    black
+color pbarline    white
 color p1bar      "227 51 101"
 color p2bar      "181 76 110"
 color p3bar      "134 85 117"
@@ -384,8 +374,8 @@ color ci2_symbol      gs13
 * Histograms
 color histogram     "227 51 101"
 color histogram_line  black
-*color xyline     white
-*color tickline    white
+* color xyline     white
+* color tickline   white
 color tick             "87 64 92"
 color minortick        "87 64 92"
 color grid                   "163 160 144"

@@ -1,12 +1,9 @@
-* TSG Rainbow --- Asjad Naqvi (2021)
-*
-*
-*
+* Generic --- Asjad Naqvi (2022)
 sequence 1210
-label "ukraine"   // auto generated
+label "ukraine"
 #include s2color
 // positions and sizes
-numstyle pcycle             8
+numstyle pcycle             9
 clockdir legend_position     6
 clockdir by_legend_position  6
 numstyle legend_cols         6
@@ -200,17 +197,17 @@ linepattern major_grid   solid
 linepattern minor_grid   dot
 // Colors //
 * Textboxes
-color box              "255 215 0"
-color textbox          "255 215 0"
+color box              "240 221 12"
+color textbox          "240 221 12"
 color mat_label_box    "0 25 51"
 yesno textbox               no
 linestyle textbox   none
 linewidth textbox   vvthin
-color background          "255 215 0"
-color plotregion          "255 215 0"
+color background          "240 221 12"
+color plotregion          "240 221 12"
 color plotregion_line   "0 25 51"
-color graphregion    "255 215 0"
-color legend     "255 215 0"
+color graphregion    "240 221 12"
+color legend     "240 221 12"
 color heading     "0 25 51"
 color subheading       "0 25 51"
 color body      "0 25 51"
@@ -220,15 +217,15 @@ color axis_title    "0 25 51"
 color tick_label    "0 25 51"
 color plabel              "0 25 51"
 color label      "0 25 51"
-color p1      "0 126 236"
-color p2       "0 114 207"
-color p3       "7 102 180"
-color p4       "16 90 156"
-color p5       "18 79 132"
-color p6       "15 67 111"
-color p7       "8 56 90"
-color p8       "4 44 69"
-color p9      color9
+color p1      "86 161 245"
+color p2       "76 144 222"
+color p3       "66 128 199"
+color p4       "56 112 178"
+color p5       "47 97 157"
+color p6       "37 82 137"
+color p7       "26 67 117"
+color p8       "15 51 98"
+color p9       "3 36 79"
 color p10      color10
 color p11     color11
 color p12      color12
@@ -236,30 +233,30 @@ color p13      color13
 color p14      color14
 color p15      color15
 * Default for lines (matching the symbols)
-color p1line     "0 126 236"
-color p2line     "0 114 207"
-color p3line     "7 102 180"
-color p4line     "16 90 156"
-color p5line      "18 79 132"
-color p6line      "15 67 111"
-color p7line      "8 56 90"
-color p8line      "4 44 69"
-color p9line     color9
+color p1line     "86 161 245"
+color p2line     "76 144 222"
+color p3line     "66 128 199"
+color p4line     "56 112 178"
+color p5line      "47 97 157"
+color p6line      "37 82 137"
+color p7line      "26 67 117"
+color p8line      "15 51 98"
+color p9line      "3 36 79"
 color p10line     color10
 color p11line    color11
 color p12line    color12
 color p13line     color13
 color p14line     color14
 color p15line     color15
-color p1lineplot    "0 126 236"
-color p2lineplot    "0 114 207"
-color p3lineplot    "7 102 180"
-color p4lineplot    "16 90 156"
-color p5lineplot     "18 79 132"
-color p6lineplot    "15 67 111"
-color p7lineplot     "8 56 90"
-color p8lineplot     "4 44 69"
-color p9lineplot    color9
+color p1lineplot    "86 161 245"
+color p2lineplot    "76 144 222"
+color p3lineplot    "66 128 199"
+color p4lineplot    "56 112 178"
+color p5lineplot     "47 97 157"
+color p6lineplot    "37 82 137"
+color p7lineplot     "26 67 117"
+color p8lineplot     "15 51 98"
+color p9lineplot     "3 36 79"
 color p10lineplot    color10
 color p11lineplot   color11
 color p12lineplot   color12
@@ -267,32 +264,32 @@ color p13lineplot   color13
 color p14lineplot    color14
 color p15lineplot    color15
 color pmarkline     "0 25 51"
-*color p1markline    "0 126 236"
-*color p2markline    "0 114 207"
-*color p3markline    "7 102 180"
-*color p4markline    "16 90 156"
-*color p5markline     "18 79 132"
-*color p6markline    "15 67 111"
-*color p7markline     "8 56 90"
-*color p8markline     "4 44 69"
-*color p9markline    color9
-*color p10markline    color10
-*color p11markline   color11
-*color p12markline   color12
-*color p13markline   color13
-*color p14markline    color14
-*color p15markline    color15
+* color p1markline    "86 161 245"
+* color p2markline    "76 144 222"
+* color p3markline    "66 128 199"
+* color p4markline    "56 112 178"
+* color p5markline     "47 97 157"
+* color p6markline    "37 82 137"
+* color p7markline     "26 67 117"
+* color p8markline     "15 51 98"
+* color p9markline     "3 36 79"
+* color p10markline   color10
+* color p11markline   color11
+* color p12markline   color12
+* color p13markline   color13
+* color p14markline   color14
+* color p15markline   color15
 * Bar charts
-color pbarline    black
-color p1bar      "0 126 236"
-color p2bar      "0 114 207"
-color p3bar      "7 102 180"
-color p4bar      "16 90 156"
-color p5bar      "18 79 132"
-color p6bar      "15 67 111"
-color p7bar      "8 56 90"
-color p8bar      "4 44 69"
-color p9bar     color9
+color pbarline    white
+color p1bar      "86 161 245"
+color p2bar      "76 144 222"
+color p3bar      "66 128 199"
+color p4bar      "56 112 178"
+color p5bar      "47 97 157"
+color p6bar      "37 82 137"
+color p7bar      "26 67 117"
+color p8bar      "15 51 98"
+color p9bar      "3 36 79"
 color p10bar    color10
 color p11bar    color11
 color p12bar    color12
@@ -304,30 +301,30 @@ color parea     gs13
 color parealine    gs13
 linewidth parealine   thin
 * Area plots
-color p1area     "0 126 236"
-color p2area     "0 114 207"
-color p3area     "7 102 180"
-color p4area     "16 90 156"
-color p5area     "18 79 132"
-color p6area     "15 67 111"
-color p7area     "8 56 90"
-color p8area     "4 44 69"
-color p9area    color9
+color p1area     "86 161 245"
+color p2area     "76 144 222"
+color p3area     "66 128 199"
+color p4area     "56 112 178"
+color p5area     "47 97 157"
+color p6area     "37 82 137"
+color p7area     "26 67 117"
+color p8area     "15 51 98"
+color p9area     "3 36 79"
 color p10area    color10
 color p11area    color11
 color p12area    color12
 color p13area    color13
 color p14area    color14
 color p15area    color15
-color p1arealine    "0 126 236"
-color p2arealine    "0 114 207"
-color p3arealine    "7 102 180"
-color p4arealine    "16 90 156"
-color p5arealine    "18 79 132"
-color p6arealine    "15 67 111"
-color p7arealine    "8 56 90"
-color p8arealine    "4 44 69"
-color p9arealine   color9
+color p1arealine    "86 161 245"
+color p2arealine    "76 144 222"
+color p3arealine    "66 128 199"
+color p4arealine    "56 112 178"
+color p5arealine    "47 97 157"
+color p6arealine    "37 82 137"
+color p7arealine    "26 67 117"
+color p8arealine    "15 51 98"
+color p9arealine    "3 36 79"
 color p10arealine   color10
 color p11arealine   color11
 color p12arealine   color12
@@ -336,17 +333,17 @@ color p14arealine   color14
 color p15arealine   color15
 * Pie slices
 linewidth pie               medium
-color ppieline     "255 215 0"
-color pielabel     "255 215 0"
-color p1pie      "0 126 236"
-color p2pie      "0 114 207"
-color p3pie      "7 102 180"
-color p4pie      "16 90 156"
-color p5pie      "18 79 132"
-color p6pie      "15 67 111"
-color p7pie      "8 56 90"
-color p8pie      "4 44 69"
-color p9pie     color9
+color ppieline     "240 221 12"
+color pielabel     "240 221 12"
+color p1pie      "86 161 245"
+color p2pie      "76 144 222"
+color p3pie      "66 128 199"
+color p4pie      "56 112 178"
+color p5pie      "47 97 157"
+color p6pie      "37 82 137"
+color p7pie      "26 67 117"
+color p8pie      "15 51 98"
+color p9pie      "3 36 79"
 color p10pie    color10
 color p11pie    color11
 color p12pie    color12
@@ -375,10 +372,10 @@ color ci2_area        gs13
 color ci_symbol       gs13
 color ci2_symbol      gs13
 * Histograms
-color histogram     "0 126 236"
+color histogram     "86 161 245"
 color histogram_line  black
-*color xyline     white
-*color tickline    white
+* color xyline     white
+* color tickline   white
 color tick             "0 25 51"
 color minortick        "0 25 51"
 color grid                   "153 153 0"
