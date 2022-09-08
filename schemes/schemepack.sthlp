@@ -7,7 +7,7 @@
 {title:SCHEMEPACK}
 
 {p 4 4 2}
-{it:NOTE: This package requires Stata v15 or higher.}
+{it:NOTE: This package requires Stata v15 or higher. Most schemes are defined using RGB colors, which can only be read in newer Stata versions.}
 
 {p 4 4 2}
 This package releases a suite graph schemes as part of {bf:{browse "https://medium.com/the-stata-guide":the Stata Guide}}. Several schemes are part of a series where the name define the background color: {it:white},{it:black}, and {it:gg}. 
@@ -50,11 +50,13 @@ Please see the {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub repo
     Rainbow            - {stata set scheme rainbow:rainbow}
     Neon               - {stata set scheme neon:neon}
     Taylor Swift's Red - {stata set scheme swift_red:swift_red}  
-	Ukraine 		   - {stata set scheme swift_red:ukraine}
-	Color Blind 1      - {stata set scheme cblind1:cblind1}		
-	Tab1               - {stata set scheme tab1:tab1}		
-	Tab2               - {stata set scheme tab2:tab2}		
-	Tab3               - {stata set scheme tab3:tab3}		
+	Ukraine            - {stata set scheme swift_red:ukraine}
+
+{it:Colorblind-friendly schemes:}
+    Tab1               - {stata set scheme tab1:tab1}
+    Tab2               - {stata set scheme tab2:tab2}
+    Tab3 			   - {stata set scheme tab3:tab3}  
+	cblind1 		   - {stata set scheme cblind1:cblind1}			
 
 3. And try it out:
 
@@ -71,11 +73,11 @@ updates once in a while. Please give feedback and/or report errors if you find a
 {hline}
 
 Keywords: Stata, graphs, schemes
-Version: {bf:schemepack} version 1.2 
-Date: 14 Aug 2022
+Version: {bf:schemepack} version 1.3 
+Date: 08 Sep 2022
 License: {browse "https://opensource.org/licenses/MIT":MIT}
 
-Author: {browse "https://github.com/asjadnaqvi":Asjad Naqvi}
+Author: {browse "https://github.com/asjadnaqvi":Asjad Naqvi} 
 E-mail: asjadnaqvi@gmail.com
 Twitter: {browse "https://twitter.com/AsjadNaqvi":@AsjadNaqvi}
 

@@ -1,6 +1,6 @@
 ![StataMin](https://img.shields.io/badge/stata-2015-blue) ![issues](https://img.shields.io/github/issues/asjadnaqvi/stata-schemes) ![license](https://img.shields.io/github/license/asjadnaqvi/stata-schemes) ![Stars](https://img.shields.io/github/stars/asjadnaqvi/stata-schemes) ![version](https://img.shields.io/github/v/release/asjadnaqvi/stata-schemes) ![release](https://img.shields.io/github/release-date/asjadnaqvi/stata-schemes)
 
-# SCHEMEPACK v1.2
+# SCHEMEPACK v1.3
 
 In this repository are various ready-to-use Stata schemes. The earlier schemes come in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R. The newer schemes are standalone versions with unique colors that allows the graphs to stand out.
 
@@ -21,7 +21,7 @@ To install SCHEMEPACK, you can either get them directly from SSC (**v1.1**):
 ssc install schemepack, replace
 ```
 
-or install them from GitHub (**v1.2**):
+or install them from GitHub (**v1.3**):
 
 *(GitHub files might contain latest updates that have not been currently pushed to SSC)*.
 
@@ -46,6 +46,7 @@ Please report errors or bugs or suggestions in the [Issues](https://github.com/a
 
 
 ### Change log
+* 08 Sep 2022: Minor fixes for v1.3
 * 14 Aug 2022: Bug fixes to schemes files. Ukraine scheme slightly desaturated. Four new schemes added: cblind1 (color-blind friendly), tab1, tab2, tab3 (qualitative colors).
 * 05 Mar 2022: A new scheme based on Ukraine's flag colors.
 * 15 Nov 2021: A new scheme based on Taylor Swift's Red album colors added. Minor fixes to the help file.
