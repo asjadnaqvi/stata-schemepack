@@ -15,7 +15,7 @@ Note that scheme file options, e.g. colors, lines, sizes, etc. might be subject 
 
 ## How to install and use SCHEMEPACK
 
-To install SCHEMEPACK, you can either get them directly from SSC (**v1.1**):
+To install SCHEMEPACK, you can either get them directly from SSC (**v1.3**):
 
 ```
 ssc install schemepack, replace
