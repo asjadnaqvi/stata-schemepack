@@ -34,7 +34,7 @@ Once installed, please see `help schemepack` for the scheme descriptions and tes
 You can also download and run the [scheme_test.do](scheme_test.do) dofile to test various graph schemes that uses this test data:
 
 ```applescript
-use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
+use "https://github.com/asjadnaqvi/stata-schemepack/blob/main/scheme_test.dta?raw=true", clear
 ```
 
 or try them out on your own datasets! If you want to revert back to the default Stata s2 scheme, then type `set scheme s2color`. Note that you can permanently set a scheme by typing `set scheme <name>, perm`.
