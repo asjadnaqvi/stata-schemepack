@@ -13,7 +13,7 @@ Link to the Medium article that describes these schemes: [Stata graph schemes by
 
 Note that scheme file options, e.g. colors, lines, sizes, etc. might be subject to minor adjustments to improve their overall visual quality.
 
-## How to install and use SCHEMEPACK
+## Install
 
 To install SCHEMEPACK, you can either get them directly from SSC (**v1.3**):
 
@@ -31,7 +31,7 @@ net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/stata
 
 Once installed, please see `help schemepack` for the scheme descriptions and test them out.
 
-You can also download and run the [scheme_test.do](scheme_test.do) dofile to test various graph schemes that uses this test data:
+You can also download and run the [./data/scheme_test.do](scheme_test.do) dofile to test various graph schemes that uses this test data:
 
 ```
 use "https://github.com/asjadnaqvi/stata-schemepack/blob/main/data/scheme_test.dta?raw=true", clear
@@ -40,32 +40,7 @@ use "https://github.com/asjadnaqvi/stata-schemepack/blob/main/data/scheme_test.d
 or try them out on your own datasets! If you want to revert back to the default Stata s2 scheme, then type `set scheme s2color`. Note that you can permanently set a scheme by typing `set scheme <name>, perm`.
 
 
-
 Please report errors or bugs or suggestions in the [Issues](https://github.com/asjadnaqvi/stata-schemepack/issues) section. 
-
-
-
-### Change log
-* 08 Nov 2022: v1.4 release. Fixes and corrections to schemes. GitHub folder renamed to stata-schemepack to align it with other dataviz packages.
-* 08 Sep 2022: Minor fixes for v1.3
-* 14 Aug 2022: Bug fixes to schemes files. Ukraine scheme slightly desaturated. Four new schemes added: cblind1 (color-blind friendly), tab1, tab2, tab3 (qualitative colors).
-* 05 Mar 2022: A new scheme based on Ukraine's flag colors.
-* 15 Nov 2021: A new scheme based on Taylor Swift's Red album colors added. Minor fixes to the help file.
-* 28 Oct 2021: *MAJOR UPDATE*: schemes released on SSC (`ssc install schemepack, replace`). They collection has been renamed from `tsg_schemes` to `schemepack` to make it more generic and easier to remember. Black schemes have a notch darker background (its not pure black). Bar graph outlines adjusted to make them more visible. Otherwise some schemes were blending into the background.
-* 28 Jun 2021: Minor errors in templates have been fixed. For example bar labels were showing in the wrong color in the black themes. The test file has been reduced in size. The preview graphs have been regenerated. The number of graphs show in the preview below have been reduced except for the tableau schemes. All files exist in the figure folder though.
-* 26 Jun 2021: Two new schemes added: neon and rainbow. Neon tests a new and more generic scheme generator script. Rainbow celebrates the 2021 Pride month and introduces the 6 pride flag colors in the schemes. This scheme is fairly limited in the sense that it only has six colors. But these are more than enough for presentations etc. This is also derived from the generic scheme template used for the Neon scheme.
-* 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and the older scheme version was giving errors.
-* 16 Apr 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: **brbg**, **piyg**, **ptol**, **jet**, **w3d**
-* 08 Apr 2021: Repository created with pkg file and the following schemes added: **tableau**, **cividis**, **viridis**, **hue**
-
-### How can you support the schemes?
-
-You can support the schemes by using them :smirk: 
-
-You can also:
-
-[!["Buy Me A Coffee!!!"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/asjadnaqvi)
-
 
 
 # Preview
@@ -328,3 +303,23 @@ Celebrating pride (2021 edition):
 
 
 
+### Change log
+* 08 Nov 2022: v1.4 release. Fixes and corrections to schemes. GitHub folder renamed to stata-schemepack to align it with other dataviz packages.
+* 08 Sep 2022: Minor fixes for v1.3
+* 14 Aug 2022: Bug fixes to schemes files. Ukraine scheme slightly desaturated. Four new schemes added: cblind1 (color-blind friendly), tab1, tab2, tab3 (qualitative colors).
+* 05 Mar 2022: A new scheme based on Ukraine's flag colors.
+* 15 Nov 2021: A new scheme based on Taylor Swift's Red album colors added. Minor fixes to the help file.
+* 28 Oct 2021: *MAJOR UPDATE*: schemes released on SSC (`ssc install schemepack, replace`). They collection has been renamed from `tsg_schemes` to `schemepack` to make it more generic and easier to remember. Black schemes have a notch darker background (its not pure black). Bar graph outlines adjusted to make them more visible. Otherwise some schemes were blending into the background.
+* 28 Jun 2021: Minor errors in templates have been fixed. For example bar labels were showing in the wrong color in the black themes. The test file has been reduced in size. The preview graphs have been regenerated. The number of graphs show in the preview below have been reduced except for the tableau schemes. All files exist in the figure folder though.
+* 26 Jun 2021: Two new schemes added: neon and rainbow. Neon tests a new and more generic scheme generator script. Rainbow celebrates the 2021 Pride month and introduces the 6 pride flag colors in the schemes. This scheme is fairly limited in the sense that it only has six colors. But these are more than enough for presentations etc. This is also derived from the generic scheme template used for the Neon scheme.
+* 15 Jun 2021: Schemes updated to make them compatible with Stata 15 and earlier. The s2-scheme.scheme was updated to a new version in 2019 and the older scheme version was giving errors.
+* 16 Apr 2021: Very minor fixes to some colors. Histograms fixed and added to the graphs. Following schemes added: **brbg**, **piyg**, **ptol**, **jet**, **w3d**
+* 08 Apr 2021: Repository created with pkg file and the following schemes added: **tableau**, **cividis**, **viridis**, **hue**
+
+### How can you support the schemes?
+
+You can support the schemes by using them :smirk: 
+
+You can also:
+
+[!["Buy Me A Coffee!!!"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/asjadnaqvi)
