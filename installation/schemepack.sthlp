@@ -1,6 +1,6 @@
 {smcl}
 {hi:help schemepack}{...}
-{right:{browse "https://github.com/asjadnaqvi/Stata-schemes":schemepack v1.2 (GitHub)}}
+{right:{browse "https://github.com/asjadnaqvi/stata-schemepack":schemepack v1.4 (GitHub)}}
 
 {hline}
 
@@ -17,7 +17,7 @@ The {it:gg_*} schemes are similar to the {browse "https://ggplot2.tidyverse.org/
 Most of the schemes are derived from the built-in {it:s2color}, {it:cleanplots} ({browse "https://www.trentonmize.com/software/cleanplots":Mize 2018}), 
 and {it:plainplot} from {it:blindschemes} ({browse "https://journals.sagepub.com/doi/10.1177/1536867X1701700313":Bischof 2017}). 
 Colors are derived from Ben Jann's {stata ssc install palettes, replace:{it:colorpalette}} package ({browse "https://www.stata-journal.com/article.html?article=gr0075":Jann 2018}).
-A sample data and dofile are provided on {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub} for testing the schemes.
+A sample data and dofile are provided on {browse "https://github.com/asjadnaqvi/stata-schemepack":GitHub} for testing the schemes.
 
 {p 4 4 2}
 Schemes can be defined inside dofiles using 'set scheme {it:<scheme name>}'. For example, {stata set scheme white_tableau} at the beginning of the dofile will set {it:white_tableau} as the default for the graphs.
@@ -25,7 +25,7 @@ Schemes can also be set permanently using the {stata set scheme white_tableau, p
 They can also be used interactively while making graphs, for example, 'twoway (scatter y x), scheme(white_tableau)'.
 
 {p 4 4 2}
-Please see the {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub repository} for sample data, dofiles, gallery, and other updates including the release of new schemes.
+Please see the {browse "https://github.com/asjadnaqvi/stata-schemepack":GitHub} for sample data, dofiles, gallery, and other updates.
 
 {title:Schemes}
 
@@ -50,13 +50,13 @@ Please see the {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub repo
     Rainbow            - {stata set scheme rainbow:rainbow}
     Neon               - {stata set scheme neon:neon}
     Taylor Swift's Red - {stata set scheme swift_red:swift_red}  
-	Ukraine            - {stata set scheme swift_red:ukraine}
+    Ukraine            - {stata set scheme swift_red:ukraine}
 
 {it:Colorblind-friendly schemes:}
     Tab1               - {stata set scheme tab1:tab1}
     Tab2               - {stata set scheme tab2:tab2}
-    Tab3 			   - {stata set scheme tab3:tab3}  
-	cblind1 		   - {stata set scheme cblind1:cblind1}			
+    Tab3               - {stata set scheme tab3:tab3}  
+    cblind1            - {stata set scheme cblind1:cblind1}			
 
 3. And try it out:
 
@@ -66,18 +66,33 @@ Please see the {browse "https://github.com/asjadnaqvi/Stata-schemes":GitHub repo
     Box plot
     {stata graph box turn mpg trunk rep78 headroom gear_ratio, title(Box plot)}
 
-Also try different graph types. See the complete {browse "https://github.com/asjadnaqvi/Stata-schemes":gallery here}. Once the schemes are loaded, various elements can be customized from the 
-graphical user interface (GUI) in the Graphics drop-down menu. Since minor elements might still be fine-tuned, please check for
-updates once in a while. Please give feedback and/or report errors if you find any.
+Also try different graph types. See the complete gallery on {browse "https://github.com/asjadnaqvi/stata-schemepack":GitHub}.
+Once the schemes are loaded, various elements can be customized using standard options.
+Since minor elements might still be fine-tuned, please check for updates once in a while. Please report issues and suggestions on {browse "https://github.com/asjadnaqvi/stata-schemepack/issues":GitHub}.
 
 {hline}
 
-Keywords: Stata, graphs, schemes
-Version: {bf:schemepack} version 1.3 
-Date: 08 Sep 2022
-License: {browse "https://opensource.org/licenses/MIT":MIT}
 
-Author: {browse "https://github.com/asjadnaqvi":Asjad Naqvi} 
-E-mail: asjadnaqvi@gmail.com
-Twitter: {browse "https://twitter.com/AsjadNaqvi":@AsjadNaqvi}
+{title:Package details}
+
+Version      : {bf:schemepack} v1.4
+This release : 08 Nov 2022
+First release: 08 Apr 2021
+Repository   : {browse "https://github.com/asjadnaqvi/joyplot":GitHub}
+Keywords     : Stata, graph, schemes
+License      : {browse "https://opensource.org/licenses/MIT":MIT}
+
+Author       : {browse "https://github.com/asjadnaqvi":Asjad Naqvi}
+E-mail       : asjadnaqvi@gmail.com
+Twitter      : {browse "https://twitter.com/AsjadNaqvi":@AsjadNaqvi}
+
+
+
+
+
+
+
+
+
+
 

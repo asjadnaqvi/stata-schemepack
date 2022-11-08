@@ -1,6 +1,6 @@
-![StataMin](https://img.shields.io/badge/stata-2015-blue) ![issues](https://img.shields.io/github/issues/asjadnaqvi/stata-schemes) ![license](https://img.shields.io/github/license/asjadnaqvi/stata-schemes) ![Stars](https://img.shields.io/github/stars/asjadnaqvi/stata-schemes) ![version](https://img.shields.io/github/v/release/asjadnaqvi/stata-schemes) ![release](https://img.shields.io/github/release-date/asjadnaqvi/stata-schemes)
+![StataMin](https://img.shields.io/badge/stata-2015-blue) ![issues](https://img.shields.io/github/issues/asjadnaqvi/stata-schemepack) ![license](https://img.shields.io/github/license/asjadnaqvi/stata-schemepack) ![Stars](https://img.shields.io/github/stars/asjadnaqvi/stata-schemepack) ![version](https://img.shields.io/github/v/release/asjadnaqvi/stata-schemepack) ![release](https://img.shields.io/github/release-date/asjadnaqvi/stata-schemepack)
 
-# SCHEMEPACK v1.3
+# SCHEMEPACK v1.4
 
 In this repository are various ready-to-use Stata schemes. The earlier schemes come in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R. The newer schemes are standalone versions with unique colors that allows the graphs to stand out.
 
@@ -21,31 +21,32 @@ To install SCHEMEPACK, you can either get them directly from SSC (**v1.3**):
 ssc install schemepack, replace
 ```
 
-or install them from GitHub (**v1.3**):
+or install them from GitHub (**v1.4**):
 
 *(GitHub files might contain latest updates that have not been currently pushed to SSC)*.
 
-```applescript
-net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/stata-schemepack/main/schemes/") replace
+```
+net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/stata-schemepack/main/installation/") replace
 ```
 
 Once installed, please see `help schemepack` for the scheme descriptions and test them out.
 
 You can also download and run the [scheme_test.do](scheme_test.do) dofile to test various graph schemes that uses this test data:
 
-```applescript
-use "https://github.com/asjadnaqvi/stata-schemepack/blob/main/scheme_test.dta?raw=true", clear
+```
+use "https://github.com/asjadnaqvi/stata-schemepack/blob/main/data/scheme_test.dta?raw=true", clear
 ```
 
 or try them out on your own datasets! If you want to revert back to the default Stata s2 scheme, then type `set scheme s2color`. Note that you can permanently set a scheme by typing `set scheme <name>, perm`.
 
 
 
-Please report errors or bugs or suggestions in the [Issues](https://github.com/asjadnaqvi/Stata-schemes/issues) section. 
+Please report errors or bugs or suggestions in the [Issues](https://github.com/asjadnaqvi/stata-schemepack/issues) section. 
 
 
 
 ### Change log
+* 08 Nov 2022: v1.4 release. Fixes and corrections to schemes. GitHub folder renamed to stata-schemepack to align it with other dataviz packages.
 * 08 Sep 2022: Minor fixes for v1.3
 * 14 Aug 2022: Bug fixes to schemes files. Ukraine scheme slightly desaturated. Four new schemes added: cblind1 (color-blind friendly), tab1, tab2, tab3 (qualitative colors).
 * 05 Mar 2022: A new scheme based on Ukraine's flag colors.

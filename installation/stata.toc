@@ -1,0 +1,8 @@
+v 1.4
+d SCHEMEPACK: A collection of various Stata graph schemes.
+d
+d Asjad Naqvi 
+d asjadnaqvi@gmail.com
+d https://medium.com/the-stata-guide
+d https://github.com/asjadnaqvi/Stata-schemes
+
