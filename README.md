@@ -15,7 +15,9 @@ Note that scheme file options, e.g. colors, lines, sizes, etc. might be subject 
 
 ## Install
 
-To install SCHEMEPACK, you can either get them directly from SSC (**v1.3**):
+The package can be installed via SSC or GitHub. The GitHub version, might be more recent due to bug fixes, feature updates etc, and may contain syntax improvements and changes in default values. See version numbers below. Eventually the GitHub version is published on SSC.
+
+The package can be installed from SSC (v1.4):
 
 ```
 ssc install schemepack, replace
