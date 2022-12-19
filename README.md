@@ -47,9 +47,9 @@ Please report errors or bugs or suggestions in the [Issues](https://github.com/a
 
 # Preview
 
-A preview of the schemes is given below. The latest ones are put on top. Not every scheme has been fine tuned for each and every aspect. Regardless, all elements can be modified from the graph interface window, which overwrite the scheme defaults. Some schemes are fairly robust. For example, **white_tableau** and **white_w3d** work really well and I use them most of the time. Some themes are great for presentations. For example, the dark themes on dark backgrounds, or gg schemes which keep the focus on the graph.
+A preview of the schemes is given below. Not every scheme has been fine tuned for each and every aspect. Regardless, all elements can be modified, either by using the GUI or syntax. Some general purpose schemes are **white_tableau** and **cblind1**. Some themes like **neon** or **black_w3d** are great for presentations on dark backgrounds.
 
-Each scheme has a standard number of built-in colors. Some schemes have been designed with few colors. These are highlighted in brackets in front of the scheme name. If no number is specified, the standard 12 color range is used. Colors are repeated if you have more graph elements than the defined number of colors. In this case, you can either: (a) think again about how much information you want to display, (b) cutomize elements like adding dotted or dashed lines etc., or (c) automate colors following the [Cutomizing color schemes](https://medium.com/the-stata-guide/covid-19-visualizations-with-stata-part-2-customizing-color-schemes-206af77d00ce) guide.
+Each scheme has a pre-defined number of colors which are marked next to the scheme names. If no number is specified, then the standard 12 color range is used. Colors repeat if there are more graph elements than the scheme colors. In this case, you can either: (a) think again about how much information you want to display since 12 colors is already a lot!, (b) cutomize elements like adding dotted or dashed lines etc., or (c) automate colors following the [Cutomizing color schemes](https://medium.com/the-stata-guide/covid-19-visualizations-with-stata-part-2-customizing-color-schemes-206af77d00ce) guide.
 
 ## Standalone schemes
 
