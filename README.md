@@ -6,7 +6,7 @@ In this repository are various ready-to-use Stata schemes. The earlier schemes c
 
 Addition info:
 
-* The [scheme_test.do](scheme_test.do) contains the script to test the various schemes.
+* The [scheme_test.do](./data/scheme_test.do) contains the script to test the various schemes.
 * The [figures](/figures) folder contains the high-resolution images of the schemes.
 
 Link to the Medium article that describes these schemes: [Stata graph schemes by The Stata Guide](https://medium.com/the-stata-guide/stata-schemes-5ef99d099585). Here you can learn how to program your own schemes.
