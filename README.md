@@ -1,6 +1,9 @@
+![schemepack-1](https://github.com/asjadnaqvi/stata-schemepack/assets/38498046/4204af3c-e8dc-44c4-aba9-31c9a195f3f0)
+
 ![StataMin](https://img.shields.io/badge/stata-2015-blue) ![issues](https://img.shields.io/github/issues/asjadnaqvi/stata-schemepack) ![license](https://img.shields.io/github/license/asjadnaqvi/stata-schemepack) ![Stars](https://img.shields.io/github/stars/asjadnaqvi/stata-schemepack) ![version](https://img.shields.io/github/v/release/asjadnaqvi/stata-schemepack) ![release](https://img.shields.io/github/release-date/asjadnaqvi/stata-schemepack)
 
-# SCHEMEPACK v1.4
+# schemepack v1.4
+(09 Nov 2022)
 
 In this repository are various ready-to-use Stata schemes. The earlier schemes come in three flavors: **white**, **black**, and **gg (grey)**. As the names suggest, these are the background colors, where the last one is inspired by the [ggplot2](https://ggplot2.tidyverse.org/) scheme in R. The newer schemes are standalone versions with unique colors that allows the graphs to stand out.
 
