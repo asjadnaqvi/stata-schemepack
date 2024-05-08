@@ -1,6 +1,11 @@
-![schemepack-1](https://github.com/asjadnaqvi/stata-schemepack/assets/38498046/4204af3c-e8dc-44c4-aba9-31c9a195f3f0)
-
 ![StataMin](https://img.shields.io/badge/stata-2015-blue) ![issues](https://img.shields.io/github/issues/asjadnaqvi/stata-schemepack) ![license](https://img.shields.io/github/license/asjadnaqvi/stata-schemepack) ![Stars](https://img.shields.io/github/stars/asjadnaqvi/stata-schemepack) ![version](https://img.shields.io/github/v/release/asjadnaqvi/stata-schemepack) ![release](https://img.shields.io/github/release-date/asjadnaqvi/stata-schemepack)
+
+[Installation](#Installation) | [Examples](#Examples) | [Change log](#Change-log)
+
+
+---
+
+![schemepack-1](https://github.com/asjadnaqvi/stata-schemepack/assets/38498046/4204af3c-e8dc-44c4-aba9-31c9a195f3f0)
 
 # schemepack v1.4
 (09 Nov 2022)
@@ -16,7 +21,7 @@ Link to the Medium article that describes these schemes: [Stata graph schemes by
 
 Note that scheme file options, e.g. colors, lines, sizes, etc. might be subject to minor adjustments to improve their overall visual quality.
 
-## Install
+## Installation
 
 The package can be installed via SSC or GitHub. The GitHub version, might be more recent due to bug fixes, feature updates etc, and may contain syntax improvements and changes in default values. See version numbers below. Eventually the GitHub version is published on SSC.
 
@@ -48,7 +53,7 @@ or try them out on your own datasets! If you want to revert back to the default 
 Please report errors or bugs or suggestions in the [Issues](https://github.com/asjadnaqvi/stata-schemepack/issues) section. 
 
 
-# Preview
+# Examples
 
 A preview of the schemes is given below. Not every scheme has been fine tuned for each and every aspect. Regardless, all elements can be modified, either by using the GUI or syntax. Some general purpose schemes are **white_tableau** and **cblind1**. Some themes like **neon** or **black_w3d** are great for presentations on dark backgrounds.
 
