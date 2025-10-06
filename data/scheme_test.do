@@ -32,7 +32,7 @@ clear
 *net install schemepack, from("https://raw.githubusercontent.com/asjadnaqvi/stata-schemepack/main/installation/") replace
 
 // read the data
-use "https://github.com/asjadnaqvi/Stata-schemes/blob/main/scheme_test.dta?raw=true", clear
+use "https://github.com/asjadnaqvi/stata-schemepack/blob/main/data/scheme_test.dta?raw=true", clear
 
 // you either type:
 * set scheme white_tableau 
